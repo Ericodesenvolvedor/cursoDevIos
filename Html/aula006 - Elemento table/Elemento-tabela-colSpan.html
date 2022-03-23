@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento tabela rowspan</title>
+
+    <style>
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+        
+        caption {
+            padding-bottom: 10px;
+        }
+        
+        td, th {
+            border: 1px solid black;
+        }
+
+    </style>
+    
+</head>
+
+
+
+<body>
+    
+    <table>
+        <caption>Vendas do Produto X</caption>
+ 
+        <thead>
+
+            <tr>
+                <th colspan="4">Vendas Trimestrais</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <th rowspan="3">2010</th>
+                <td>144.000</td>
+            </tr>
+
+            <tr>
+                <td>179.580</td>
+            </tr>
+
+            <tr>
+                <td>254.000</td>
+            </tr>
+
+        </tbody>
+        
+    </table>
+
+    <br/>
+
+    <footer>
+        <small>Instituto da Oportunidade Social</small>
+    </footer>
+
+</body>
+</html>

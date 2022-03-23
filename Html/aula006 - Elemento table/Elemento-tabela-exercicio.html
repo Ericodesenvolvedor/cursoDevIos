@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento tabela exercicio</title>
+
+    <style>
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+        caption {
+            padding-bottom: 10px;
+        }
+        td, th {
+            border: 1px solid black;
+        }
+
+        #total {
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <table>
+
+        <caption>Vendas do semestre</caption>
+
+        <thead>
+
+            <tr>
+                <th colspan="3">Vendas Segundo Semestre de 2021</th>  
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <th colspan="2">Semestre</th>
+                <td>Valor</td>
+            </tr>
+
+            <tr>
+                <th rowspan="7">Mês</th>
+                <td>Janeiro</td>
+                <td>R$100</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Fevereiro</td>
+                <td>R$50</td>
+
+            </tr>
+            <tr>
+
+                <td>Maio</td>
+                <td>R$50</td>
+
+            </tr>
+            <tr>
+
+                <td>Abril</td>
+                <td>R$10</td>
+
+            </tr>
+            <tr>
+
+                <td>Março</td>
+                <td>R$40</td>
+
+            </tr>
+            <tr>
+
+                <td>Junho</td>
+                <td>R$100</td>
+
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+            <td>Total</td>
+            <td colspan="2" id="total">R$350</td>
+
+        </tfoot>
+
+    </table>
+
+</body>
+</html>

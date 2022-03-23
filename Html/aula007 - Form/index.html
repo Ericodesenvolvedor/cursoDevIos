@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            background-color: azure;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        form input {
+            margin-bottom: 10px;
+        }
+
+        input[type = "submit"] {
+            padding: 3px 20px;
+            background-color: rgb(162, 180, 180);
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+
+<body>
+    
+
+    <main>
+
+        <fieldset>
+            <legend>formulario</legend>
+            
+            <form action="#" name="Formulario" method="post">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" size="30" maxlength="100" placeholder="Insira seu nome" id="nome" required>
+                </div>
+
+                <div>
+                    <label for="number">Idade:</label>
+                    <input type="number" size="30" placeholder="Insira sua Idade" id="number" required>
+                </div>
+
+                
+                <div id="checkbox">
+                    <h2>Checkbox</h2>
+                    
+                    <label for="azul">Azul</label>
+                    <input type="checkbox" id="azul">
+                    
+                    <label for="vermelho">Vermelho</label>
+                    <input type="checkbox" id="vermelho">
+                    
+                    <label for="amarelo">Amarelo</label>
+                    <input type="checkbox" id="amarelo">
+                </div>
+                
+                <h2>Radio</h2>
+
+                <label for="azul2">azul</label>
+                <input type="radio" name="cor" id="azul2" checked>
+
+                <label for="vermelho2">vermelho</label>
+                <input type="radio" name="cor" id="vermelho2">
+
+                <label for="amarelo2">amarelo</label>
+                <input type="radio" name="cor" id="amarelo2">
+
+                <h2>Select</h2>
+
+                <select>
+                    <option>Azul</option>
+                    <option>Vermelho</option>
+                    <option>Amarelo</option>
+                </select>
+
+                <h2>datalist</h2>
+
+                <label for="cor">Escolha sua cor:</label>
+                <input list="cor1" id="cor" name="cor">
+
+                <datalist id="cor1">
+                    <option value="azul">
+                    <option value="vermelho">
+                    <option value="amarelo">
+                </datalist>
+                            
+                <div id="range">
+                    <h2>Tipo range</h2>
+                    
+                    0
+                    <input type="range" name="value_01" list="valores" min="1" max="5">
+                    10
+                    <datalist id="valores">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </datalist>
+                </div>
+
+                <div id="textarea">
+                    <h2>textarea</h2>
+
+                    <textarea name="textarea" cols="30" rows="5" placeholder="Deixe aqui sua mensagem...">
+                    </textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+                
+        </fieldset>
+                    
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet and Love</title>
+
+    <style>
+        body {
+            background-color: rgb(221, 226, 250);
+            font-family: cursive;
+            font-size: 0.8em;
+        }
+    </style>
+
+</head>
+<body>
+  
+    <main>
+        <fieldset>
+            <legend>Formulario</legend>
+
+            <form method="post">
+
+                <section id="dadosPessoais">
+        
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Ex: joão" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Ex: contato@gmail.com" required>
+        
+                    <label for="idade">Idade:</label>
+                    <input type="number" id="idade" placeholder="Ex: 18" required>
+        
+                </section>
+
+                <section id="feedback">
+                    <div id="tipoRadio">
+
+                        <h2>Indicaria para um amigo?</h2>
+    
+                        <label for="radioSim">Sim</label>
+                        <input type="radio" name="indicariaAmigo" id="radioSim" checked>
+            
+                        <label for="radioNao">Não</label>
+                        <input type="radio" name="indicariaAmigo" id="radioNao">
+                    </div>
+                        
+                    <div id="tipoCheckbox">
+
+                        <h2>
+                            O que você mais gostou na loja?
+                        </h2>
+
+                        <label for="doces">Doces</label>
+                        <input type="checkbox" id="doces">
+
+                        <label for="ambiente">Ambiente</label>
+                        <input type="checkbox" id="ambiente">
+
+                        <label for="entregaDoPedido">Entrega do pedido</label>
+                        <input type="checkbox" id="entregaDoPedido">
+
+                        <label for="atendimento">Atendimento</label>
+                        <input type="checkbox" id="atendimento">
+
+                        <label for="valores">Valores</label>
+                        <input type="checkbox" id="valores">
+
+                    </div>
+
+                    <section id="tipoSelect">
+                        <div id="ultimoPedido">
+
+                            <h2>Qual a sobremesa ou salgado que você comprou no último pedido?</h2>
+
+                            <select name="salgadoOuDoce" id="salgadoOuDoce">
+                                <option value="doce">Brigadeiro</option>
+                                <option value="doce">Bolo de chocolate</option>
+                                <option value="doce">Doce de goiaba</option>
+                                <option value="salgado">Coxinha</option>
+                                <option value="salgado">croissant</option>
+                                <option value="salgado">Pão de queijo</option>
+                            </select>
+
+                        </div>
+
+                        <div id="lojaAtendimento">
+
+                            <h2>Loja de atendimento: </h2>
+
+                            <select name="localidadeLoja" id="localidadeLoja">
+                                <option value="aclimacao">Aclimação</option>
+                                <option value="liberdade">Liberdade</option>
+                                <option value="tatuape">Tatuapé</option>
+                                <option value="saoJoaquim">São Joaquim</option>
+                            </select>
+
+                        </div>
+                    </section>
+
+                    <div id="voltarRestaurante">
+
+                        <h2>Qual a sua vontade de voltar ao restaurante</h2>
+
+                        0
+                        <input type="range" list="tipoRange" min="0" max="10">
+                        10
+                        
+                        <datalist id="tipoRange">
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="6"></option>
+                            <option value="7"></option>
+                            <option value="8"></option>
+                            <option value="9"></option>
+                            <option value="10"></option>
+                        </datalist>
+                    </div>
+
+                    <div id="feedbackCliente">
+
+                        <h2>Deixe seu feedback aqui: </h2>
+
+                        <textarea name="clientemsg" id="clientemsg" cols="30" rows="10" placeholder="Deixe seu feedback aqui..."></textarea>
+
+                    </div>
+
+                    <div id="tipoSubmit">
+                        <input type="submit" value="Enviar">
+                    </div>
+
+                </section>
+            </form>
+        </fieldset>
+    </main>
+
+    <footer>
+        <p>&copy; Sweet and Love - Todos os direitos reservados 2022</p>
+    </footer>
+</body>
+</html>

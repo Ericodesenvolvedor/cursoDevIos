@@ -60,3 +60,11 @@
 - criação de repositorio.
 
 ## Aula 10 - Git e Github 23/03/2022
+
+- criação de um repositorio local (git init)
+- git status (para checar)
+- area de standing
+- git add nomedoarquivo e sua extenção. 
+- git rm --cached nomedoarquivo e sua extenção.
+- git commit -m "mensagem"
+- git log (Para ver a mensagem de commit, hórario e o autor)

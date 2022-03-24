@@ -3,7 +3,7 @@
 ## Sobre
 
 <p>
-    Este repositorio foi criado para fins de estudo do curso Progração web do
+    Este repositorio foi criado para fins de estudo do curso Programação web do
     <a href="https://ios.org.br/"><cite>Ios</cite></a>
 </p>
 

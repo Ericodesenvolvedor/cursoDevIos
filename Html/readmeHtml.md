@@ -21,6 +21,14 @@
 - Elementos de titulos (h1-h6)
 - Tipos de listas (ordenadas, desordenadas e descrição)
 
+## Ano de eleição - Aula de sexta-feira 11/03 
+
+- Eleições e importância do voto.
+- Calendario eleitoral
+- Como tirar o titulo de eleitor online 2022.
+- Entenda como funciona a urna eletronica e tire suas dúvidas.
+- Questionario. 
+
 ## Aula 4 - Elementos estruturais 14/03/2022
 
 - Vendo tags semanticas
@@ -50,3 +58,11 @@
 - range: uma linha com um valor incial e um final.
 - fieldset: fieldset é pra gerar um quadrado para colocar todo o seu formulario 
 - legend: adiciona uma legenda.
+
+ ## OS 3 PODERES - Aula sexta-feira 18/03
+
+ - O que é politica.
+ - O que é parlamento.
+ - E eu com o sistema politico brasileiro.
+ - Entenda o sistema politico no Brasil - os 3 poderes.
+ - Questionario.

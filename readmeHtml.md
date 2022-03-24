@@ -3,6 +3,8 @@
 - Conhecendo como funcionará o curso.
 - Conhecendo os topicos do curso.
 
+# Modulo de Html
+
 ## Aula 1 - Internet  08/03/2022
 
 - Conhecendo a internet
@@ -48,23 +50,3 @@
 - range: uma linha com um valor incial e um final.
 - fieldset: fieldset é pra gerar um quadrado para colocar todo o seu formulario 
 - legend: adiciona uma legenda.
-
-## Aula 8 - Git e Github 21/03/2022
-
-- introdução ao git e github. 
-- versionamento de código.
-
-## Aula 9 - Git e Github 22/03/2022
-
-- criação de conta.
-- criação de repositorio.
-
-## Aula 10 - Git e Github 23/03/2022
-
-- criação de um repositorio local (git init)
-- git status (para checar)
-- area de standing
-- git add nomedoarquivo e sua extenção. 
-- git rm --cached nomedoarquivo e sua extenção.
-- git commit -m "mensagem"
-- git log (Para ver a mensagem de commit, hórario e o autor)

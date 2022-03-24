@@ -29,3 +29,11 @@ Outros comando:
 - git status
 - git clone "linkDoRepositorio"
 - git branch -M "nomeBranch"
+
+## Comandos do Git 2 - 24/03/2022
+
+Branch:
+- Ramificações do seu código.
+- git branch "nomeDaBranch" (para criar uma branch)
+- git branch -d "nomeDaBranch" (para deletar uma branch)
+- git checkout "nomeDaBranch" (Para andar pelas branch)

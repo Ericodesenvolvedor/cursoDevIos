@@ -2,7 +2,10 @@
 
 ## Sobre
 
-<p>Este repositorio foi criado para colocar os arquivos do curso de programação web do ios e acompanhar minha evolução.</p>
+<p>
+    Este repositorio foi criado para fins de estudo do curso Progração web do
+    <a href="https://ios.org.br/"><cite>Ios</cite></a>
+</p>
 
 ## Tecnologias usadas
 

@@ -68,3 +68,4 @@
 - git rm --cached nomedoarquivo e sua extenção.
 - git commit -m "mensagem"
 - git log (Para ver a mensagem de commit, hórario e o autor)
+- git push -u "nomeDoRemote" master

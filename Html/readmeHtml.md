@@ -3,6 +3,8 @@
 - Conhecendo como funcionará o curso.
 - Conhecendo os topicos do curso.
 
+# Modulo de Html
+
 ## Aula 1 - Internet  08/03/2022
 
 - Conhecendo a internet
@@ -18,6 +20,14 @@
 
 - Elementos de titulos (h1-h6)
 - Tipos de listas (ordenadas, desordenadas e descrição)
+
+## Ano de eleição - Aula de sexta-feira 11/03 
+
+- Eleições e importância do voto.
+- Calendario eleitoral
+- Como tirar o titulo de eleitor online 2022.
+- Entenda como funciona a urna eletronica e tire suas dúvidas.
+- Questionario. 
 
 ## Aula 4 - Elementos estruturais 14/03/2022
 
@@ -49,8 +59,9 @@
 - fieldset: fieldset é pra gerar um quadrado para colocar todo o seu formulario 
 - legend: adiciona uma legenda.
 
-## Aula 8 - Git e Github 21/03/2022
+ ## OS 3 PODERES - Aula sexta-feira 18/03
 
+<<<<<<< HEAD:readmeHtml.md
 - introdução ao git e github. 
 - versionamento de código.
 
@@ -69,3 +80,10 @@
 - git commit -m "mensagem"
 - git log (Para ver a mensagem de commit, hórario e o autor)
 - git push -u "nomeDoRemote" master
+=======
+ - O que é politica.
+ - O que é parlamento.
+ - E eu com o sistema politico brasileiro.
+ - Entenda o sistema politico no Brasil - os 3 poderes.
+ - Questionario.
+>>>>>>> 5a3cb13b09333230bad7b0de9fdc6b0d62c52598:Html/readmeHtml.md

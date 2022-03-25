@@ -41,3 +41,10 @@ Branch:
 Merge: 
 - Mesclar branch 
 - git merge "nomeDaBranch" -m "comentario"
+
+## Fake News - Aula sexta-feira 25/03/2022
+
+- Virus real x virus Virtual
+- Como identificar uma fake news
+- Como identificar uma nóticia falsa na internet.
+- 5 sites para verificar se uma nóticia é real ou fake.

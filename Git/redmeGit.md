@@ -29,6 +29,7 @@ Outros comando:
 - git status
 - git clone "linkDoRepositorio"
 - git branch -M "nomeBranch"
+<<<<<<< HEAD
 
 ## Comandos do Git 2 - 24/03/2022
 

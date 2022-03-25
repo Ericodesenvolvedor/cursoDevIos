@@ -61,29 +61,6 @@
 
  ## OS 3 PODERES - Aula sexta-feira 18/03
 
-<<<<<<< HEAD:readmeHtml.md
 - introdução ao git e github. 
 - versionamento de código.
 
-## Aula 9 - Git e Github 22/03/2022
-
-- criação de conta.
-- criação de repositorio.
-
-## Aula 10 - Git e Github 23/03/2022
-
-- criação de um repositorio local (git init)
-- git status (para checar)
-- area de standing
-- git add nomedoarquivo e sua extenção. 
-- git rm --cached nomedoarquivo e sua extenção.
-- git commit -m "mensagem"
-- git log (Para ver a mensagem de commit, hórario e o autor)
-- git push -u "nomeDoRemote" master
-=======
- - O que é politica.
- - O que é parlamento.
- - E eu com o sistema politico brasileiro.
- - Entenda o sistema politico no Brasil - os 3 poderes.
- - Questionario.
->>>>>>> 5a3cb13b09333230bad7b0de9fdc6b0d62c52598:Html/readmeHtml.md

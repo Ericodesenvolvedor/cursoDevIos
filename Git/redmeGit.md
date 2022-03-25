@@ -37,3 +37,7 @@ Branch:
 - git branch "nomeDaBranch" (para criar uma branch)
 - git branch -d "nomeDaBranch" (para deletar uma branch)
 - git checkout "nomeDaBranch" (Para andar pelas branch)
+
+Merge: 
+- Mesclar branch 
+- git merge "nomeDaBranch" -m "comentario"

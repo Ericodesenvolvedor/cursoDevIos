@@ -33,3 +33,29 @@
 
 - text-indent: vai configurar o recuo da primeira linha do elemento.
 - text-shadow: vai dar um sombreamento para o texto (1px 1px 10px black)
+
+# Class 
+
+O seletor de classe é usado no CSS, quando queremos aplicar um estilo em um grupo de
+elementos HTML e não em um único elemento.
+
+## class no elemento
+
+- A class é usado dentro do elemento passando-se como um atributo, para poder usar a class
+é preciso colocar um 
+
+.NomeClass { propriedade:valorPropriedade }
+
+## class em multiplos elementos
+
+- Você pode definir uma class padrão para aplicar os mesmo eestilos para alguns elementos,
+como por exemplo um background padrão para alguns elemetos.
+
+p class = "fundo"
+h1 class = "fundo"
+
+## Multiplas classes no elemento
+
+- Você pode adicionar duas class dentro do mesmo elemento. 
+
+class = "class1 class2"

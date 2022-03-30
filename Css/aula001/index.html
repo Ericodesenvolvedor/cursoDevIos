@@ -14,68 +14,104 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
     }
 
     body {
-        background-color: rgb(0, 2, 31);
+        background-color: #5454c2;
     }
+
+    h2 {
+        margin: 10px 0;
+        color: #161633;
+    }
+    
+    p {
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.192);
+        width: 500px;
+    }
+
+     main, #tecnologias {
+         padding-left: 20px;
+     }
 
     header {
         width: 100%;
-        height: 50px;
+        height: 60px;
+        margin-bottom: 50px;
+
         background-color: white;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.199);
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
-    header .item {
+    header #logo a {
+        text-transform: uppercase;
         text-decoration: none;
-        color: black;
+        font-size: 1.3rem;
         font-weight: bold;
     }
 
-    section {
-        margin: 10px;
-        width: 400px;
-        height: 200px;
-        border-radius: 10px;
-        background-color: white;
+    ul .item {
+        text-decoration: none;
+        color: #4444a8;
+        margin-right: 25px;
+
     }
 
     </style>
 </head>
 
 <body>
-    <div>
+    <div id="container">
         <header>
+            <div id="logo">
+                <a href="#">Logo</a>
+            </div>
+            
             <ul type="circle">
-                <a href="#" class="item">Link 1</a>
-                <a href="#" class="item">Link 2</a>
-                <a href="#" class="item">Link 3</a>
+                <a href="#" class="item">Home</a>
+                <a href="#" class="item">Piadas</a>
+                <a href="#" class="item">Tecnologias</a>
             </ul>
         </header>
 
         <main>
-            <article>Como deixar alguém curioso? amanhã eu te conto kkkk</article>
+            <h2>Piadas</h2>
+            <article><p>Como deixar alguém curioso? amanhã eu te conto kkkk</p></article>
         </main>
 
-        <div>
+        <div id="tecnologias">
             <section>
                 <h2>O qué é CSS</h2>
-                <p>Aqui vai o texto</p>
+                <p>
+                    Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. O código CSS pode ser aplicado diretamente nas tags ou ficar contido dentro das tags style.
+                </p>
             </section>
 
             <section>
                 <h2>O qué é JS</h2>
-                <p>Aqui vai o texto</p>
+                <p>
+                    JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.
+                </p>
             </section>
 
             <section>
                 <h2>O qué é React</h2>
-                <p>Aqui vai o texto</p>
+                <p>
+                    O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
+                </p>
             </section>
                 
             <section>
                 <h2>O qué é Java</h2>
-                <p>Aqui vai o texto</p>
+                <p>
+                    Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems.
+                </p>
             </section>
         </div>
     </div>

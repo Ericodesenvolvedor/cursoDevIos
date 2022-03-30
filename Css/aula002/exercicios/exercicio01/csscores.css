@@ -1,24 +1,23 @@
-#nomeCor p {
-    color: blue;
-    font-weight: bold;
+body {
+    background-color: #d1cfb8;
 }
 
-#hexadecimal p {
-    color: #0000ff;
-    font-weight: bold;  
+section {
+    background-color: rgb(153, 151, 135);
+    border-radius: 10px;
+
+    width: 600px;
+    padding: 10px;
 }
 
-#hexaAbreviado p {
-    color: #00ff;
-    font-weight: bold;
+h2 {
+    background-color: hsl(54, 8%, 26%);
+    color: #d1cfb894;
+
+    padding-left: 10px;
 }
 
-#rgb p {
-    color: rgb(0, 0, 255);
-    font-weight: bold;
-}
-
-#hsl p {
-    color: hsl(240, 100%, 50%);
-    font-weight: bold;
+p {
+    text-shadow: 1px 1px 1px #00000027;
+    text-indent: 9px;
 }

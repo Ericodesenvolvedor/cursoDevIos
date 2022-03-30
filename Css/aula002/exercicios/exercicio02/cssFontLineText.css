@@ -1,53 +1,37 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:#c9c9e9;
+    background-color: #d1cfb8;
+    font-family: 'Roboto', sans-serif;
+    margin: 10;
 }
 
 section {
-    background-color: white;
+    background-color: rgb(153, 151, 135);
     border-radius: 10px;
-    padding: 20px;
+
     width: 600px;
+    padding: 10px;
 }
 
 h2 {
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+    background-color: hsl(54, 8%, 26%);
+    color: #d1cfb894;
+
+    padding-left: 10px;
 }
 
 p {
-    text-indent: 10px;
+    text-shadow: 1px 1px 1px #00000027;
+    text-indent: 9px;
 }
 
-#nomeCor p {
-    color: blue;
-    font-weight: bold;
-    font-style: italic;
-}
-
-#hexadecimal p {
-    color: #0000ff;
-    font-weight: bold;  
-}
-
-#hexaAbreviado p {
-    color: #00ff;
-    font-weight: bold;
-}
-
-#rgb p {
-    color: rgb(0, 0, 255);
-    font-weight: bold;
-}
-
-#hsl p {
-    color: hsl(240, 100%, 50%);
-    font-weight: bold;
+footer {
+    background-color: #8f8d7d;
 }
 
 footer p {
-    font-style: italic;
-    background-color: #6d6d88;
-    color: white;
-    line-height: 80px;
-    margin-top: 20px;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    color: #20201c;
+    font-weight: bold;
 }

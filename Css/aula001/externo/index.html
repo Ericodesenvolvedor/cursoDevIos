@@ -4,11 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css externo</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Externo</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, omnis.</p>
+    <div id="container">
+
+        <header>
+            <div id="logo">
+                <a href="#">Logo</a>
+            </div>
+            
+            <ul>
+                <a href="#" class="item">Home</a>
+                <a href="#" class="item">Piadas</a>
+                <a href="#" class="item">Tecnologias</a>
+            </ul>
+        </header>
+
+        <main>
+            <h2>Piadas</h2>
+            <article><p>Como deixar alguém curioso? amanhã eu te conto kkkk</p></article>
+        </main>
+
+        <div id="tecnologias">
+            <section>
+                <h2>O qué é CSS</h2>
+                <p>
+                    Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. O código CSS pode ser aplicado diretamente nas tags ou ficar contido dentro das tags style.
+                </p>
+            </section>
+
+            <section>
+                <h2>O qué é JS</h2>
+                <p>
+                    JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.
+                </p>
+            </section>
+
+            <section>
+                <h2>O qué é React</h2>
+                <p>
+                    O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
+                </p>
+            </section>
+                
+            <section>
+                <h2>O qué é Java</h2>
+                <p>
+                    Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems.
+                </p>
+            </section>
+        </div>
+    </div>
+           
 </body>
 </html>

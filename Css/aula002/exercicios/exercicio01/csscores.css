@@ -1,0 +1,24 @@
+#nomeCor p {
+    color: blue;
+    font-weight: bold;
+}
+
+#hexadecimal p {
+    color: #0000ff;
+    font-weight: bold;  
+}
+
+#hexaAbreviado p {
+    color: #00ff;
+    font-weight: bold;
+}
+
+#rgb p {
+    color: rgb(0, 0, 255);
+    font-weight: bold;
+}
+
+#hsl p {
+    color: hsl(240, 100%, 50%);
+    font-weight: bold;
+}

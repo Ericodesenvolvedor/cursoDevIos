@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#c9c9e9;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+}
+
+h2 {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+}
+
+p {
+    text-indent: 10px;
+}
+
+#nomeCor p {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#hexadecimal p {
+    color: #0000ff;
+    font-weight: bold;  
+}
+
+#hexaAbreviado p {
+    color: #00ff;
+    font-weight: bold;
+}
+
+#rgb p {
+    color: rgb(0, 0, 255);
+    font-weight: bold;
+}
+
+#hsl p {
+    color: hsl(240, 100%, 50%);
+    font-weight: bold;
+}
+
+footer p {
+    font-style: italic;
+    background-color: #6d6d88;
+    color: white;
+    line-height: 80px;
+    margin-top: 20px;
+}

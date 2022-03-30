@@ -11,3 +11,25 @@
 - Inline: o estilo é colocado dentro da propria tag
 - Incorporado: O estilo vai dentro da tag head (style)
 - Externo: é criado um arquivo separadamente para ele. 
+
+# Configuração de texto
+
+## Propriedades introdutorias css
+
+- background-color, color, margin, padding, font-family, font-style, etc...
+
+## Cores em páginas na web.
+
+- Rgb (red, green, blue)
+- Hexadecimal (#ff0088)
+- hsl (Matriz, saturação e intensidade)
+
+## Configurações de Textos
+
+- font-family: configura o tipo da sua fonte (arial, verdana, sans-serif)
+- background-color: vai adicionar uma cor ao fundo. 
+
+## propriedades font line e text
+
+- text-indent: vai configurar o recuo da primeira linha do elemento.
+- text-shadow: vai dar um sombreamento para o texto (1px 1px 10px black)

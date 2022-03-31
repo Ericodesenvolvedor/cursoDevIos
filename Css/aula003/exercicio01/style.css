@@ -11,6 +11,7 @@ body {
     background-color: #5DB7DE;
 }
 
+/* CONFIGURAÇÃO MENU NAVEGAÇÃO */
 header {
     background-color: #f3f3f3;
     height: 50px;
@@ -23,7 +24,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
 
 nav a {
@@ -46,6 +46,7 @@ nav .navBar a:hover {
     color: white;
 }
 
+/* PARTE PRINCIPAL ONDE CONTEM OS CARDS */ 
 main .cards {
     display: flex;
     flex-wrap: wrap;
@@ -70,6 +71,7 @@ main .cards .cardsItens {
     margin-top: 10px;
 }
 
+/* CONFIGURAÇÃO DO FOOTER */
 footer {
     width: 400px;
     padding: 10px;

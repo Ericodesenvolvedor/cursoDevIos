@@ -9,14 +9,12 @@
 
 body {
     background-color: #5DB7DE;
-    overflow: hidden;
 }
 
 header {
     background-color: #f3f3f3;
     height: 50px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.096);
-    margin-bottom: 20px;
 }
 
 nav {
@@ -44,13 +42,16 @@ nav .navBar a {
 }
 
 nav .navBar a:hover {
-    background-color: #4a7e94;
+    background-color: #85a7b6;
+    color: white;
 }
 
 main .cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    
+    align-items: center;
+    height: 100%; 
 }
 
 main .cards .cardsItens {
@@ -71,14 +72,15 @@ main .cards .cardsItens {
 
 footer {
     background-color: white;
-    height: 100px;
+    height: 75px;
     width: 100%;
     
+    position: relative;
+    bottom: 0;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 91%;
 }
 
 footer a {

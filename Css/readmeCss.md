@@ -59,3 +59,8 @@ h1 class = "fundo"
 - Você pode adicionar duas class dentro do mesmo elemento. 
 
 class = "class1 class2"
+
+# Id 31/03/2022
+
+O seletor de id é usado no CSS para identificar e aplicar uma regra CSS exclusivamente a 
+um único elemento em uma página web.

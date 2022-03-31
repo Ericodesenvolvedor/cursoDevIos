@@ -15,7 +15,7 @@
 
 # Alguns sites úteis
 
-## <a href="https://storyset.com/" target="_blank">Iconduck </a>
+## <a href="https://iconduck.com/" target="_blank">Iconduck </a>
 O icon duck oferece diversos icons em formato png ou svg que podem ser uteis para os projetos.
 
 ## <a href="https://storyset.com/" target="_blank">Storyset</a>

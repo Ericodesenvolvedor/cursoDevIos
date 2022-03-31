@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #5DB7DE;
+    overflow: hidden;
+}
+
+header {
+    background-color: #f3f3f3;
+    height: 50px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.096);
+    margin-bottom: 20px;
+}
+
+nav {
+    height: 100%;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #6d685f;
+}
+
+nav .logo {
+    font-weight: bold;
+}
+
+nav .navBar a {
+    margin-right: 25px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav .navBar a:hover {
+    background-color: #4a7e94;
+}
+
+main .cards {
+    display: flex;
+    justify-content: center;
+    
+}
+
+main .cards .cardsItens {
+    width: 250px;
+    height: 250px;
+
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+
+    border-radius: 10px;
+    background-color: white;
+}
+
+.cardsItens img {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 91%;
+}
+
+footer a {
+    margin-right: 10px;
+}

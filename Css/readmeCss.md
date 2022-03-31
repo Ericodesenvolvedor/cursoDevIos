@@ -1,6 +1,6 @@
 # Aula de css 
 
-# Introdução ao Css
+# Introdução ao Css 28/03/22
 
 - Criada em 1995
 - Destaque entre 1997 e 1999
@@ -12,7 +12,7 @@
 - Incorporado: O estilo vai dentro da tag head (style)
 - Externo: é criado um arquivo separadamente para ele. 
 
-# Configuração de texto
+# Configuração de texto 29/03/22
 
 ## Propriedades introdutorias css
 
@@ -34,7 +34,7 @@
 - text-indent: vai configurar o recuo da primeira linha do elemento.
 - text-shadow: vai dar um sombreamento para o texto (1px 1px 10px black)
 
-# Class 
+# Class 30/03/22
 
 O seletor de classe é usado no CSS, quando queremos aplicar um estilo em um grupo de
 elementos HTML e não em um único elemento.

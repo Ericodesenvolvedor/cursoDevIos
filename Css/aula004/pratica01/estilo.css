@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body {
+    background-color: #e6e6fa;
+    color: #191970;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+#primeiro_nome {
+    background-color: yellow;
+}
+
+p#sobrenome {
+    background-color: grey;
+}
+
+body {
+    color: blue
+}

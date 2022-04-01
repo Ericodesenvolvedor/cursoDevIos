@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@700&display=swap');
+
+body, h1, header, div, img, main, section, ol, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----- DIV CONTEINER ----- */
+.containerFilmes {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ----- HEADER ----- */
+.containerFilmes header h1 {
+    margin-bottom: 10px;
+
+    font-family: 'Mohave', sans-serif;
+    color: rgb(117, 0, 0);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
+    font-size: 4rem;
+}
+
+/* ----- MAIN - CONFIGURAÇÕES ----- */
+
+main {
+    width: 600px;
+    padding: 15px;
+
+    border: 3px solid black;
+}
+
+/* ----- CONFIGURAÇÃO GLOBAL MAIN - IMAGENS ----- */
+main img {
+    width: 250px;
+    border: 2px solid black;
+}
+
+/* ----- CONFIGURAÇÃO GLOBAL MAIN - SECTION ----- */
+
+main section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ----- CONFIGURAÇÃO GLOBAL MAIN - LISTA ORDENADA ----- */
+section div ol {
+    width: 250px;
+    padding: 10px;
+
+    border: 2px solid black;
+    list-style: inside;
+    list-style-type: decimal;
+}
+
+/* ----- LISTAS - GÊNEROS ----- */
+.generoRomance div ol {
+    font-family: cursive;
+    background-color: #3235ff;
+    color: #ff923e;
+}
+
+.generoAcao div ol {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ff3c3c;
+    color: #111111;
+}
+
+.generoTerror div ol {
+    font-family: fantasy;
+    background-color: rgb(255, 235, 57);
+    color: #6617fa;
+}
+
+/* ----- FOOTER - GITHUB ----- */
+footer {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+footer p {
+    margin-right: 20px;
+    
+    font-family: monospace;
+    color: white;
+    font-size: 1.3rem;
+}

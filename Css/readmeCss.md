@@ -64,3 +64,18 @@ class = "class1 class2"
 
 O seletor de id é usado no CSS para identificar e aplicar uma regra CSS exclusivamente a 
 um único elemento em uma página web.
+
+# Elementos visuais 04/04/2022
+
+Os elementos visuais vão dar uma melhor aparência para o seu site. 
+
+## border e hr
+
+Border - alguns valores:
+
+inset, outset, double, groove, ridge, solid, dashed e dotted.
+
+Modificações css: 
+
+border-width, border-color, border-style.
+border-top, border-right, border-bottom e border-left.

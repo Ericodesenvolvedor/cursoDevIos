@@ -1,0 +1,5 @@
+p.borderDashed {
+    border-width: 3px;
+    border-style: dashed;
+    border-color: black;
+}

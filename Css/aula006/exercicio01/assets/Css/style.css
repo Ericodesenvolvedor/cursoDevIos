@@ -1,0 +1,53 @@
+* {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+section .quadrado {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+section {
+    display: flex;   
+}
+
+a {
+    height: 20px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(195, 195, 255);
+}
+
+h2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#margin-simples .quadrado {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#shorthand-margin .quadrado {
+    margin: 20px 10px;
+}
+
+#padding-simples .quadrado {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+    margin-bottom: 10px;
+}
+
+#shorthand-padding .quadrado {
+    padding: 20px 10px;
+
+    margin-bottom: 10px;
+}

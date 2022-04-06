@@ -79,3 +79,63 @@ Modificações css:
 
 border-width, border-color, border-style.
 border-top, border-right, border-bottom e border-left.
+
+## Estilo CSS em elemento img 
+
+O elemento figure representa o conteúdo independente, frequentemente com uma legenda 
+figcaption, e é normalmente referido como uma única unidade como, por exemplo, uma imagem.
+
+## background-image
+
+A propriedade background-image do CSS permite configurar 
+uma imagem como plano de fundo na área de um elemento do HTML.
+
+## background-repeat
+
+Por padrão, o navegador repete a imagem por todo plano de fundo. Você 
+pode alterar esse comportamento configurando a propriedade background-repeat 
+com um dos seguintes valores:
+
+- repeat
+- no-repeat
+- space
+- round
+- space repeat
+- round space
+
+## background-position
+
+Permite definir o local da sua imagem na página de acordo com valores numéricos 
+(em pixels, porcentagem, etc.) ou pelos rótulos: 
+- left padrão, top, center, bottom, and right.
+
+## background-attachment
+
+Configura se a imagem irá rolar com o resto da página (scroll) ou se irá permanecer fixa 
+(fixed).
+
+## background-size
+
+- Redimensionar a imagem com valores de largura width e altura height
+- pixels ou porcentagem, ou com rótulos como: cover (cobre toda a área 
+disponível, preservando o aspect radio) ou contain. 
+
+# Margin x Padding 05/04/2022
+
+- Entender as diferenças entre Margin e Padding;
+- Configurar a propriedade margin;
+- Configurar a propriedade padding.
+
+## Box Model
+
+o termo Box Model é uma caixa (box) retangular e o CSS box model é essencialmente essa 
+caixa com diversas camadas em volta do conteúdo, que é formada por padding, border e margin.
+
+## Padding
+
+- É o espaço entre o conteúdo e a borda, ou seja, está do lado de dentro da borda.
+
+## Margin
+
+é o espaço entre a borda o elemento HTML e o próximo elemento da sua página web, ou seja, 
+está do lado de fora da borda.

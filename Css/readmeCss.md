@@ -65,6 +65,12 @@ class = "class1 class2"
 O seletor de id é usado no CSS para identificar e aplicar uma regra CSS exclusivamente a 
 um único elemento em uma página web.
 
+# Aula sexta feira - 01/04/2022
+
+- Deepfake
+- conhecendo o deepfake (substitui rostos e vozes em videos falsos)
+- formulario
+
 # Elementos visuais 04/04/2022
 
 Os elementos visuais vão dar uma melhor aparência para o seu site. 
@@ -139,3 +145,31 @@ caixa com diversas camadas em volta do conteúdo, que é formada por padding, bo
 
 é o espaço entre a borda o elemento HTML e o próximo elemento da sua página web, ou seja, 
 está do lado de fora da borda.
+
+# Medidas no CSS - 06/04/2022
+
+objetivos: 
+
+- Conhecer as medidas absolutas e relativas;
+- Aplicar as medidas absolutas e relativas.
+
+## Medidas absolutas
+
+- Cm: centrimetros
+- mm: milimetros
+- in: polegadas
+- px: pixels
+- pt: points
+- pc: paica
+
+## Medidas relativas
+
+- em: em relação ao tamanho da fonte do elemento.
+- ex: relativo a altura x das fonte atual.
+- ch: relativo a largura do 0.
+- rem: relativo ao tamanho da fonte o elemento raiz.
+- vw: em relação a 1% da largura do viewport. 
+- vh: em relação a 1% da altura do viewport.
+- vmin: em relação a 1% da dimensão menor do viewport.
+- vmax: em relação a 1% da dimensão maior do viewport.
+- %: relativo ao elemento pai.

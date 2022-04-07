@@ -1,65 +1,134 @@
-body, main, div, section, p, h1, h2, footer, form, input {
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-main {
-    width: 100%;
+header {
     height: 100vh;
-    color: white;
+    width: 100%;
+
     position: relative;
+    background-color: rgb(73, 46, 148);
 }
 
-main #background {
+/* ---------------------- BACKGROUND HEADER -----------------------*/
+
+header > .imagem-header {
     height: 100%;
     width: 100%;
-    background-color: rgb(155, 133, 106);
-    background-image: url('../imagens/cafeGostoso.jpg');
+
+    background-image: url('../Imagens/background-header.jpg');
+    background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: opacity(30%);
 }
 
-main #position-itens {
-    position: absolute;
-    top: 15%;
-    
+header > .position {  /* posicionando itens em cima da imagem de fundo */
     width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+}
+
+/* ---------------------- NAVEGAÇÃO MENU - HEADER --------------------*/
+
+header > .position > nav {
+    width: 100%;
+    height: 10%;
+    font-size: 10px;
+    background-color: #bd9ed634;
+
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-#position-itens #saiba-mais {
-    width: 700px;
-    height: 300px;
-    font-size: 10px;
-    padding: 15px;
-    color: black;
-    background-color: rgba(196, 188, 153, 0.274);
-    text-align: center;
-}
-
-#saiba-mais h1 {
-    font-size: 5em;
-    color: white;
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-#saiba-mais p {
-    font-size: 1.4rem;
-    color: white;
-    margin-bottom: 50px;
-}
-
-#saiba-mais a {
-    border: 3px solid rgb(218, 218, 186);
-    border-radius: 15px;
-
-    padding: 10px 20px;
-    box-sizing: content-box;
-
-    color: aliceblue;
+.position > nav > .navLogo-Header > h3 {
     font-size: 2em;
-    text-decoration: none;
+    color: white;
 }
+
+nav > .navLink-Header > a {
+    margin-right: 30px;
+    padding: 10px 20px;
+    
+    color: white;
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: bold;
+
+}
+
+nav > .navLink-Header > a:hover { /* pseudo-classe, quando passar o mouse em cima, algo acontece. */
+    color: rgb(166, 163, 196);
+}
+
+/* ---------------------- TEXTO HEADER -----------------------*/
+
+header .position > .header-flex {
+    width: 100%;
+    height: 90%;
+    font-size: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-flex > .texto-header {
+    width: 600px;
+
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.692);
+}
+
+.texto-header > h1 {
+    font-size: 5em;
+    line-height: 1;
+}
+
+.texto-header > h2 {
+    margin-bottom: 40px;
+    font-size: 4em;
+
+    color: rgb(215, 252, 5);
+}
+
+/* ---------------------- BOTÃO HEADER -----------------------*/
+
+header > .position > .header-flex > .btn-header {
+    font-size: 10px;
+
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-header > a {
+    margin-left: 20px;
+    padding: 10px 20px;
+
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none;
+
+    background-color: rgba(73, 46, 148, 0.753);
+    color: white;
+
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.btn-header > a:hover {
+    background-color: rgba(43, 43, 43, 0.836);
+}
+
+/* ---------------------- MAIN -----------------------*/

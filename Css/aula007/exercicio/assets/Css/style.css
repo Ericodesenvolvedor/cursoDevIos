@@ -12,7 +12,7 @@ header {
     width: 100%;
 
     position: relative;
-    background-color: rgb(73, 46, 148);
+    background-color: rgb(5, 1, 58);
 }
 
 /* ---------------------- BACKGROUND HEADER -----------------------*/
@@ -42,7 +42,7 @@ header > .position > nav {
     width: 100%;
     padding: 30px;
     font-size: 10px;
-    background-color: #4600807a;
+    background-color: #8020cf7a;
 
     display: flex;
     justify-content: space-around;
@@ -64,7 +64,6 @@ nav > .navLink-Header > a {
     text-decoration: none;
     font-size: 1.8em;
     font-weight: bold;
-
 }
 
 nav > .navLink-Header > a:hover { /* pseudo-classe, quando passar o mouse em cima, algo acontece. */
@@ -77,6 +76,10 @@ nav > .navLink-Header > a.facaParte-nav {
 
     background-color: rgba(43, 43, 43, 0.678);
     color: white;
+}
+
+nav > .navLink-Header > a.facaParte-nav:hover {
+    background-color: rgb(173, 145, 199);
 }
 
 /* ---------------------- TEXTO HEADER -----------------------*/
@@ -149,22 +152,82 @@ header > .position > .header-flex > .caixa-header > .btn-header {
 
 main {
     width: 100%;
-    background-color: rgb(18, 0, 53);
+    background-color: rgba(1, 0, 73, 0.808);
 }
 
-main .centralizando-main {
+main > .centralizando-main {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.centralizando-main #sobre {
-    padding-top: 50px;
+/* ---------------------- MAIN - SESSÃO SOBRE -----------------------*/
+
+.centralizando-main > #conteudo-sobre {
     width: 100%;
     height: 100vh;
 }
 
-#sobre .sobre-texto {
-    height: 50%;
-    color: white;
+#conteudo-sobre > .sobre-titulo {
+    width: 100%;
+    height: 20%;
+    font-size: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.sobre-titulo > h2 {
+    color: white;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+#conteudo-sobre .textoEImagem {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textoEImagem .texto-sobre {
+    font-size: 10px;
+}
+
+.texto-sobre h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 3em;
+}
+
+.texto-sobre p {
+    
+    font-size: 1.9em;
+    color: white;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6em;
+    width: 400px;
+}
+
+.texto-sobre span {
+    color: yellowgreen;
+}
+
+.texto-sobre #nossoPrimeiroTrailer {
+    margin-bottom: 3em;
+}
+
+.textoEImagem .imagem-sobre {
+    display: flex;
+    justify-content: center;
+}
+
+.textoEImagem .imagem-sobre img {
+    border: 2px solid white;
+}
+
+/* ---------------------- MAIN - SESSÃO LUGARES PARA VER -----------------------*/

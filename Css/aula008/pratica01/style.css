@@ -1,0 +1,45 @@
+div:nth-child(1) {
+    margin-bottom: 200px;
+}
+
+div .img1 {
+    float: right;
+    width: 200px;
+}
+
+div .img2 {
+    width: 200px;
+    float: left;
+}
+
+div .img3 {
+    width: 200px;
+    float: right;
+}
+
+.paragrafo {
+    clear: none;
+}
+
+div:nth-child(2) {
+    margin-bottom: 200px;
+}
+
+.content-box {
+    box-sizing: content-box;
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+.border-box {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+}

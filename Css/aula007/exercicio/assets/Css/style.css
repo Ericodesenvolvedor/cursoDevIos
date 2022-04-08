@@ -40,13 +40,15 @@ header > .position {  /* posicionando itens em cima da imagem de fundo */
 
 header > .position > nav {
     width: 100%;
-    height: 10%;
+    padding: 30px;
     font-size: 10px;
-    background-color: #bd9ed634;
+    background-color: #4600807a;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.116);
 }
 
 .position > nav > .navLogo-Header > h3 {
@@ -69,6 +71,14 @@ nav > .navLink-Header > a:hover { /* pseudo-classe, quando passar o mouse em cim
     color: rgb(166, 163, 196);
 }
 
+nav > .navLink-Header > a.facaParte-nav {
+    border: 2px solid black;
+    border-radius: 5px;
+
+    background-color: rgba(43, 43, 43, 0.678);
+    color: white;
+}
+
 /* ---------------------- TEXTO HEADER -----------------------*/
 
 header .position > .header-flex {
@@ -82,53 +92,79 @@ header .position > .header-flex {
     justify-content: center;
 }
 
-.header-flex > .texto-header {
-    width: 600px;
+.header-flex > .caixa-header {
+    width: 800px;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.caixa-header > .texto-header {
     color: white;
     text-align: center;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.692);
 }
 
 .texto-header > h1 {
-    font-size: 5em;
+    font-size: 6em;
     line-height: 1;
 }
 
 .texto-header > h2 {
     margin-bottom: 40px;
-    font-size: 4em;
+    font-size: 5em;
 
-    color: rgb(215, 252, 5);
+    color: rgb(126, 79, 255);
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 
 /* ---------------------- BOTÃO HEADER -----------------------*/
 
-header > .position > .header-flex > .btn-header {
+header > .position > .header-flex > .caixa-header > .btn-header {
     font-size: 10px;
 
-    width: 38%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .btn-header > a {
     margin-left: 20px;
     padding: 10px 20px;
 
-    font-size: 1.8em;
+    font-size: 2em;
     font-weight: bold;
     text-decoration: none;
 
-    background-color: rgba(73, 46, 148, 0.753);
     color: white;
+    background-color: rgba(120, 47, 255, 0.836);
 
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
 }
 
-.btn-header > a:hover {
-    background-color: rgba(43, 43, 43, 0.836);
+/* ---------------------- MAIN -----------------------*/
+
+main {
+    width: 100%;
+    background-color: rgb(18, 0, 53);
 }
 
-/* ---------------------- MAIN -----------------------*/
+main .centralizando-main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centralizando-main #sobre {
+    padding-top: 50px;
+    width: 100%;
+    height: 100vh;
+}
+
+#sobre .sobre-texto {
+    height: 50%;
+    color: white;
+}

@@ -173,3 +173,35 @@ objetivos:
 - vmin: em relação a 1% da dimensão menor do viewport.
 - vmax: em relação a 1% da dimensão maior do viewport.
 - %: relativo ao elemento pai.
+
+# Css float - 07/04/2022
+
+A propriedade float do CSS coloca um elemento do lado direito
+ou esquerdo de um conteúdo, permitindo que o texto e outros
+elementos alinhados envolvam esse elemento.
+
+Valores possiveis: 
+
+- none: Valor padrão.
+- left: A esquerda.
+- right: A direita.
+
+## Clear float
+
+Algumas vezes você pode querer forçar todos que todos os
+elementos fiquem alinhados um embaixo do outros, para isso você
+pode usar a propriedade clear.
+
+Valores possiveis: 
+
+- none: Valor padrão.
+- left: A esquerda.
+- right: A direita.
+- both: ambos.
+
+## CSS Box Sizing
+
+- content-box: valor padrão, o valor padding e de border são somadas a altura e 
+largura do elemento, assim ele ocupa um espaço maior.
+- border-box: configura o navegador para considerar que padding e border já 
+fazem parte da altura e da largura do elemento. 

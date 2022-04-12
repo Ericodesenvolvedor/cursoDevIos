@@ -205,3 +205,32 @@ Valores possiveis:
 largura do elemento, assim ele ocupa um espaço maior.
 - border-box: configura o navegador para considerar que padding e border já 
 fazem parte da altura e da largura do elemento. 
+
+# Aula de sexta-feira - Cibersegurança 08/04/2022
+
+- Video: Privacidade e segurança na internet
+- Segurança privacidade
+- Segurança privacidade online
+- Questionário - Cibersegurança
+
+# Pseudoclasses e Pseudoelementos
+
+
+## Pseudoclasse
+
+Pseudoclasse é uma palavra-chave usada para aplicar um efeito especial a um seletor, ou 
+seja, ela define um estado especial para um determinado elemento HTML. A pseudoclasse 
+seleciona elementos para aplicar uma determinada ação, propriedade etc.
+
+Alguns exemplos:
+
+- first-child
+- last-child
+- nth-child (posição)
+- hover
+
+## Pseudoelementos
+
+Pseudoelemento é uma palavra-chave usada para estilizar uma parte específica de um 
+determinado elemento. A sintaxe do pseudoelemento é:
+

@@ -215,7 +215,6 @@ fazem parte da altura e da largura do elemento.
 
 # Pseudoclasses e Pseudoelementos
 
-
 ## Pseudoclasse
 
 Pseudoclasse é uma palavra-chave usada para aplicar um efeito especial a um seletor, ou 
@@ -234,3 +233,70 @@ Alguns exemplos:
 Pseudoelemento é uma palavra-chave usada para estilizar uma parte específica de um 
 determinado elemento. A sintaxe do pseudoelemento é:
 
+# Media query
+
+objetivos: 
+
+- Compreender o uso de At-Rules;
+- Compreender o uso de Media Query;
+- Aplicar diferentes formatações conforme o tamanho do Viewport
+
+## At-rules
+
+O CSS tem diversas regras, que são denominadas At-Rules, que são declarações
+com instruções de como o CSS irá se comportar. At-rules são iniciadas com o sinal
+de arroba (@), seguido por um identificador e terminando com um ponto-e-vírgula
+(;).
+
+### @charset: 
+- define o conjunto de caracteres (codificação) usado pelo CSS.
+
+### @import: 
+- informa ao CSS para incluir uma folha de estilos externa.
+
+### @namespace (en-US): 
+- informa ao CSS que todo o conteúdo deve ser considerado prefixado com um namespace XML.
+
+Existe também um subconjunto de declarações, que pode ser usado como uma
+regra de uma folha de estilos, dentro de um grupo de regras condicional:
+
+### @media: 
+- um grupo de regras condicional que é aplicado ao conteúdo caso o
+dispositivo de exibição atenda com a condição de mídia definida (media query).
+
+### @document (en-US): 
+- um grupo de regras condicional que é aplicado ao conteúdo
+caso o documento atenda aos critérios da condição definidos.
+
+### @page: 
+- descreve o aspecto das mudanças do layout que serão aplicadas ao imprimir o documento
+
+### @font-face: 
+- descreve o aspecto de uma fonte externa que deve ser baixada.
+
+### @supports (en-US): 
+- um grupo de regras condicional que é aplicado ao conteúdo
+caso o navegador atenda aos critérios da condição definidos.
+
+### @keyframes: 
+descreve o aspecto das etapas intermediárias em uma sequência de
+animação CSS. Ele é muito usado para declarar variáveis em CSS.
+
+### @viewport: 
+descreve os aspectos da área de visualização para dispositivos com
+tela pequena.
+
+### @counter-style: 
+define estilos de contador específicos que não fazem parte do
+conjunto predefinido de estilos.
+
+### @property: 
+descreve o aspecto de propriedades e variáveis personalizadas.
+font-feature-values (plus @swash, @ornaments, @annotation, @stylistic,
+
+### @styleset w @character-variant): 
+define nomes comuns na font-variant-alternates
+para recurso ativado de forma diferente no OpenType.
+
+### @color-profile: 
+permite um perfil de cores definido para uso na função color().

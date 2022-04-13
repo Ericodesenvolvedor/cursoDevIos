@@ -2,9 +2,8 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio em Sala</title>
+    <title>Pontos turisticos</title>
     <link rel="stylesheet" type="text/css" href="./assets/Css/style.css">
 </head>
 <body>
@@ -17,9 +16,6 @@
         </div>
     </header>
 
-    <!-- Lembrete: Precisamos definir uma area parecendo uma folha, dentro dela vamos ter várias sessões com os texto e imagens dos locais
-        cada sessão vamos separar com uma linha (hr) -->
-
     <main>
         <div class="espacamentoLateral">
             <div class="conteiner-locais">
@@ -27,11 +23,14 @@
                <section class="flex">
                    <div class="texto">
                        <h2>Masp</h2>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ab iusto ipsa at atque eum quae quidem, magnam illo, praesentium ratione temporibus. Obcaecati amet et tempore voluptate atque consectetur quod.</p>
+
+                       <blockquote cite="https://masp.org.br/">
+                           <p>O Museu de Arte de São Paulo é um museu privado sem fins lucrativos, fundado em 1947 pelo empresário e mecenas Assis Chateaubriand (1892-1968), tornando-se o primeiro museu moderno no país. Chateaubriand convidou o crítico e marchand italiano Pietro Maria Bardi (1900-1999) para dirigir o MASP, e Lina Bo Bardi (1914-1992) para desenvolver o projeto arquitetônico e expográfico.</p>
+                       </blockquote>
                    </div>
 
                    <figure class="imagem">
-                       <img src="./assets/imagens/maspPaulista.jpg" alt="">
+                       <img src="./assets/imagens/maspPaulista.jpg" alt="Na imagem há muitas pessoas, prédios e uma estrutura chamada masp, um museu de artes.">
                    </figure>
                </section>
 
@@ -40,11 +39,14 @@
                <section class="flex">
                    <div class="texto">
                        <h2 id="uppercase">Ctn</h2>
-                       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus eos sequi minus, reiciendis nihil repellat inventore culpa accusamus rem explicabo, deserunt eius vero earum dolores quas at, nemo voluptates! Itaque.</p>
+
+                       <blockquote cite="https://catracalivre.com.br/agenda/ctn-centro-de-tradicoes-nordestinas-sp/">
+                           <p>O Centro de Tradições Nordestinas realiza anualmente a Festa do Padre Cícero em comemoração à sua data de aniversário (24 de março de 1844). Na programação estão inclusos shows, missas, distribuição de bolo e ações sociais, homenagens de repentistas e forrozeiros ao maior expoente religioso de Juazeiro do Norte.</p>
+                       </blockquote>
                    </div>
 
                    <figure class="imagem">
-                       <img src="./assets/imagens/centroDeTradicoesNordestinas.jpg" alt="">
+                       <img src="./assets/imagens/centroDeTradicoesNordestinas.jpg" alt="Na imagens há restaurantes, e em cima desses restaurantes há casas nordestinas para trazer o nordeste um pouco mais próximo das pessoas, as casas nordestinas são apenas cenários, talvez de papelão ou alguma material do tipo.">
                    </figure>
                </section>
 
@@ -53,21 +55,49 @@
                <section class="flex">
                    <div class="texto">
                        <h2>Parque da juventude</h2>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum blanditiis maxime, facere alias velit accusantium repellat voluptatem eligendi explicabo voluptatibus numquam saepe odio eaque molestias nisi fugit! Minima, quia perferendis.</p>
+
+                       <blockquote cite="https://pt.wikipedia.org/wiki/Parque_da_Juventude_Dom_Paulo_Evaristo_Arns">
+                           <p>O Parque da Juventude Dom Paulo Evaristo Arns é um complexo cultural, recreativo e esportivo localizado na Zona Norte do município de São Paulo. Em 2007, a terceira e última fase foi concluída.</p>
+                       </blockquote>
                    </div>
 
                    <figure class="imagem">
-                       <img src="./assets/imagens/parqueDaJuventude.jpg" alt="">
+                       <img src="./assets/imagens/parqueDaJuventude.jpg" alt="Na imagem há arvores, uma letra b deitada, uma letra s e p levantada. Na imagem também temos uma estrutura que é uma biblioteca.">
                    </figure>
                </section>
 
             </div>
+            
+            <div class="list conteiner-locais">
+                <h2>Lugares para vizitar</h2>
+    
+               <details>
+                   <summary>Beco do batman</summary>
+                   <p>
+                       O Beco do Batma no coração da Vila Madalena é uma das principais atrações turísticas de São Paulo. Entre vielas e travessas, o local atrai paulistanos, turistas e muitos estrangeiros que buscam, na vida boêmia do bairro, se encantar com as cores do grafite e desenhos que se estendem por pequenas ruas, onde o trânsito só é permitido para pedestres.
+                   </p>
+               </details>
 
+               <details>
+                   <summary>Liberdade</summary>
+                   <p>
+                        Um alto arco torii vermelho marca a entrada da Liberdade, a região japonesa da cidade, onde as ruas são decoradas com lanternas. As opções gastronômicas incluem bares de sushi, lojas de ramen e barracas de macarrão yakisoba, bem como restaurantes chineses e coreanos.
+                   </p>
+               </details>
+
+               <details>
+                   <summary>Ibirapuera</summary>
+                   <p>
+                        Além da grande área usada para praticar esporte, você encontra nas dependências do Parque: o Pavilhão Japonês, Museu de Arte Moderna, Museu Afro Brasil, Auditório Ibirapuera, e muito mais. Destaque para arquitetura de Oscar Niemeyer.
+                   </p>
+               </details>
+            </div>
         </div>
+
     </main>
 
     <footer>
-        <p>Desenvolvido por Ericodesenvolvedor</p>
+        <p>&copy; Desenvolvido por Ericodesenvolvedor</p>
     </footer>
 </body>
 </html>

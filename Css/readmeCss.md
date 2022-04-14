@@ -300,3 +300,53 @@ para recurso ativado de forma diferente no OpenType.
 
 ### @color-profile: 
 permite um perfil de cores definido para uso na função color().
+
+# Flexbox
+
+objetivos: 
+
+- Compreender a criação de diferentes layouts com o uso do flexbox;
+- Conhecer as diversas propriedades do flexbox;
+- Aplicar os recursos do flexbox nas folhas de estilo.
+
+## FlexBox Align
+
+- O objetivo do Flexbox é propor um layout flexível
+- Podem ser configurados tanto na horizontal ou vertical
+
+## Propriedades do flexbox
+
+Propriedades container:
+
+### display flex: 
+- A propriedade display pode definir um container como flexível.
+
+### Flex direction: 
+- configura a direção dos itens flexíveis, ou seja, ela estabelece o main-axis do container. 
+
+### flex-wrap:
+- configura se os itens serão exibidos em múltiplas linhas
+
+### flex-flow
+- Essa é uma abreviação das propriedades flex-direction e flex-wrap. Com uma única
+instrução você pode configurar a direção e a múltiplas linhas de uma vez.
+
+### justify-content
+- configura como o navegador irá exibir qualquer espaço extra que
+possa existir no container, ou seja, ela define o alinhamento
+ao longo do main-axis do container.
+
+### align-items
+- A propriedade align-itens define o comportamento padrão de
+como os itens flex estão  dispostos ao longo do cross-axis.
+
+### flex-grow
+- Largura dos itens.
+
+### flex-basis
+- define o tamanho padrão de um elemento antes do
+espaço restante seja distribuído.
+
+### align-self
+
+- permite o alinhamento seja substituido dos demais itens.

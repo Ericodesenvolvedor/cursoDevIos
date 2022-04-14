@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+}
+
+.conteiner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.conteiner div {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.box1 {
+    background-color: brown;
+
+    flex: 1;
+    order: 3;
+    align-self: flex-start;
+}
+
+.box2 {
+    background-color: blueviolet;
+
+    flex: 2;
+    order: 4;
+}
+
+.box3 {
+    background-color: bisque;
+    
+    flex: 1;
+    order: 1;
+    align-self: flex-end;
+
+}
+.box4 {
+    flex: 1;
+    order: 2;
+    
+    background-color: cadetblue;
+}
+
+

@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --castanho-escuro: #533618;
     --marromMedio-escuro: #725436;
@@ -22,10 +26,13 @@
     --paragrafo: 'Noto Sans', sans-serif;
 }
 
+/* --------------------- CONFIGURAÇÃO HEADER ---------------------------- */
+
 header {
     height: 50vh;
     width: 100%;
-    background-color: var(--castanho-escuro);
+    background-color: var(--verde-escuro);
+
     position: relative;
 }
 
@@ -37,7 +44,7 @@ header .background-header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left center;
-    filter: opacity(40%) blur(5px);
+    filter: opacity(50%);
 }
 
 header .position {
@@ -52,11 +59,11 @@ header .position {
 }
 
 .titulo-header h1 {
-    font-size: 7em;
-    font-family: var(--titulo-header);
     color: var(--verde-cinza);
-    letter-spacing: 3px;
+    font-family: var(--titulo-header);
     text-transform: capitalize;
+    font-size: 7em;
+    letter-spacing: 3px;
 }
 
 /* --------- CONFIGURANDO NAVEGAÇÃO - HEADER ---------- */
@@ -64,8 +71,8 @@ header .position {
 nav.navegacao-header {
     padding: 10px;
     font-size: 10px;
-    background-color: var(--marromMedio-escuro);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.329);
+    background-color: var(--verde-escuro);
 
     display: flex;
     justify-content: center;
@@ -74,14 +81,280 @@ nav.navegacao-header {
 .navegacao-header a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    color: var(--marrom-cinza);
+    color: var(--verde-cinza);
     
+    border-radius: 10px;
+    font-size: 2em;
+    font-weight: 600;
     margin-right: 50px;
     padding: 7px 10px;
-    border-radius: 10px;
 }
 
 .navegacao-header a:hover {
-    background-color: var(--castanho-escuro);
+    background-color: var(--marrom-cinza);
+    color: var(--castanho-escuro);
+}
+
+/* ----------------------------- INICIO CONFIGURAÇÕES MAIN --------------------------- */
+
+main {
+    padding: 20px 0 20px 20px;
+    width: 100%;
+    height: 100%;
+    
+    background-image: url("../imagens/attackOnTitanBackgroundMain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* --------------- DIVISÃO ENTRE BLOCOS DE INFORMAÇÃO E ASIDE LATERAL ---------------- */
+
+.divisao-grid {
+    display: grid;
+    grid-template-areas: "conteudo aside";
+    grid-template-columns: 70% 30%;
+}
+
+/* ---------------- CONFIGURANDO BLOCOS GLOBAIS ---------------- */
+
+.divisao-grid #blocos-informacoes {
+    grid-area: conteudo;
+}
+
+#blocos-informacoes p {
+    font-family: var(--paragrafo);
+}
+
+#blocos-informacoes a {
+    padding: 5px 10px;
+    font-family: var(--titulo-topico);
+    text-decoration: none;
+    font-size: 1.1rem;
+
+    border-radius: 6px;
+    border: 3px solid var(--castanho-escuro);
+
+    background-color: var(--marromMedio-escuro);
+    color: var(--verde-cinza);
+} 
+
+#blocos-informacoes a:hover {
+    background-color: var(--marrom-cinza);
+    color: var(--castanho-escuro);
+}
+
+.flex-conteudo {
+    display: flex;
+
+    border: 3px solid var(--verde-escuro);
+    border-radius: 10px;
+
+    background-color: var(--verde-cinza);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* ----------------- CONFIGURAÇÕES BLOCO 1 -------------------- */
+
+.sinopse {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sinopse figure {
+    width: 200px;
+}
+
+.sinopse figure img {
+    width: 100%;
+    border: 3px solid var(--marromMedio-escuro);
+}
+
+.sinopse figure img:hover {
+    filter: contrast(.8) hue-rotate(65deg);
+}
+
+.sinopse .texto {
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sinopse h2 {
+    color: #314A20;
+
+    font-family: var(--titulo-topico);
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.sinopse p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+/* ----------------- CONFIGURAÇÕES BLOCO 2 -------------------- */
+
+.video-trailer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.video-trailer iframe {
+    box-sizing: content-box;
+    border: 3px solid var(--verde-escuro);
+}
+
+.video-trailer p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.video-trailer strong {
+    color: var(--castanho-escuro);
+    margin-right: 5px;
+}
+
+/* ----------------------- CONFIGURAÇÕES BLOCO 3 -----------------------  */
+
+#conteiner-noticias {
+    display: grid;
+    grid-template-areas: "noticia1 noticia2" "noticia3 noticia4";
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    row-gap: 15px;
+    justify-items: center;
+    align-items: center;
+
+    border: 3px solid var(--verde-escuro);
+    border-radius: 10px;
+
+    background-color: var(--verde-cinza);
+    padding: 10px;
+}
+
+#conteiner-noticias .noticias {
+    width: 300px;
+    height: 350px;
+    text-align: center;
+
+    background-color: var(--marrom-cinza);
+    border: 3px solid var(--castanho-escuro);
+    border-radius: 10px 10px 0 0;
+}
+
+#conteiner-noticias figure {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+#conteiner-noticias figure img {
+    width: 100%;
+    filter: grayscale(40%) brightness(30%);
+}
+
+#conteiner-noticias figure figcaption {
+    padding: 10px;
+}
+
+#conteiner-noticias figure figcaption::first-letter {
+    font-size: 150%;
+    color: var(--castanho-escuro);
+}
+
+#conteiner-noticias .noticia1 {
+    grid-area: noticia1;
+}
+
+#conteiner-noticias .noticia2 {
+    grid-area: noticia2;
+}
+
+#conteiner-noticias .noticia3 {
+    grid-area: noticia3;
+    margin-bottom: 25px;
+}
+
+#conteiner-noticias .noticia4 {
+    grid-area: noticia4;
+    margin-bottom: 25px;
+    padding-bottom: 55px;
+}
+
+/* --------------------- ASIDE CONFIGURAÇÕES -------------- */
+
+.divisao-grid #outras-noticias {
+    grid-area: aside;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+#outras-noticias article {
+    width: 85%;
+    height: 58%;
+    padding: 10px;
+
+    border-radius: 10px 0 0 10px;
+    background-color: var(--verde-cinza);
+    border: 3px solid var(--verde-escuro);
+}
+
+#outras-noticias article div {
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#outras-noticias article div h3 {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    text-align: center;
+
+    font-family: var(--titulo-topico);
+    color: var(--verde-escuro);
+}
+
+#outras-noticias article div h3::first-letter {
+    text-transform: uppercase;
+    font-size: 120%;
+    color: var(--verde-escuro);
+}
+
+#outras-noticias article div p {
+    margin-bottom: 15px;
+    font-family: var(--paragrafo);
+}
+
+#outras-noticias article div a {
+    font-size: 1.1rem;
+    color: var(--castanho-escuro);
+}
+#outras-noticias article div a:hover {
+    color: var(--marrom-cinza);
+}
+
+/* ---------------- FOOTER ----------------------- */
+
+footer {
+    padding: 15px;
+    background-color: var(--verde-escuro);
+}
+
+footer p {
+    color: var(--verde-cinza);
+    font-family: var(--paragrafo);
+    text-align: center;
+}
+
+footer p::after {
+    content: " \00A9";
 }

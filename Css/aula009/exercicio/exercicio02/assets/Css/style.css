@@ -12,6 +12,11 @@ html {
     scroll-behavior: smooth;
 }
 
+::selection {
+    background-color: var(--verde-escuro);
+    color: white;
+}
+
 :root {
     --castanho-escuro: #533618;
     --marromMedio-escuro: #725436;

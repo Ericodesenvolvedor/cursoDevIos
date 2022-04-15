@@ -350,3 +350,17 @@ espaço restante seja distribuído.
 ### align-self
 
 - permite o alinhamento seja substituido dos demais itens.
+
+# Grid CSS Layout 
+
+- O que é Grid.
+- Propriedades do elemento pai (Grid Container).
+- Propriedades dos elementos filhos (Grid Items)
+- Você sempre precisa definir um container para trabalhar com Grid layout.
+
+## Grid item 
+- São os filhos do grid container.
+
+## Grid line
+- São as linhas divisorias que formam a estrutura do grid. Elas podem ser as 
+retas verticais ou horinzontais e estar em qualquer lado da linha ou coluna. 

@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(174, 235, 174);
+}
+
+.container {
+    background-color: rgb(253, 255, 145);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: end;
+}
+
+.container div {
+    width: 200px;
+    height: 200px;
+}
+
+.container .item-1 {
+    background-color: rgb(179, 161, 0);
+}
+
+.container .item-2 {
+    background-color: rgb(253, 253, 253);
+}
+
+.container .item-3 {
+    background-color: rgb(97, 148, 97);
+}

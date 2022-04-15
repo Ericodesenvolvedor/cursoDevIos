@@ -2,7 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-:root cores {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
     --castanho-escuro: #533618;
     --marromMedio-escuro: #725436;
     --marrom-cinza: #8C867C; /* cor sem nome */
@@ -10,8 +16,72 @@
     --verde-escuro: #314A20;
 }
 
-:root fontes {
+:root {
     --titulo-header: 'Anton', sans-serif;
     --titulo-topico:  'Poppins', sans-serif;
     --paragrafo: 'Noto Sans', sans-serif;
+}
+
+header {
+    height: 50vh;
+    width: 100%;
+    background-color: var(--castanho-escuro);
+    position: relative;
+}
+
+header .background-header {
+    width: 100%;
+    height: 100%;
+
+    background-image: url('../imagens/attackOnTitanHeader.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    filter: opacity(40%) blur(5px);
+}
+
+header .position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.position .titulo-header {
+    font-size: 10px;
+}
+
+.titulo-header h1 {
+    font-size: 7em;
+    font-family: var(--titulo-header);
+    color: var(--verde-cinza);
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+
+/* --------- CONFIGURANDO NAVEGAÇÃO - HEADER ---------- */
+
+nav.navegacao-header {
+    padding: 10px;
+    font-size: 10px;
+    background-color: var(--marromMedio-escuro);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.329);
+
+    display: flex;
+    justify-content: center;
+}
+
+.navegacao-header a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: var(--marrom-cinza);
+    
+    margin-right: 50px;
+    padding: 7px 10px;
+    border-radius: 10px;
+}
+
+.navegacao-header a:hover {
+    background-color: var(--castanho-escuro);
 }

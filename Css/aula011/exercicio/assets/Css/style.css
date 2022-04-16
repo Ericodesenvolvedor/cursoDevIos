@@ -6,6 +6,17 @@
 
 body {
     margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3rem;
 }
 
 .conteiner {
@@ -15,39 +26,50 @@ body {
 }
 
 .conteiner div {
-    width: 200px;
-    height: 200px;
+    padding: 10px;
+    width: 150px;
     border: 3px solid black;
+    background-color: rgb(252, 232, 182);
 }
 
-.box1 {
-    background-color: brown;
+.conteiner div h2 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
 
+.conteiner div h2::after {
+    content: "\1F4D1";
+    position: absolute;
+    right: 0;
+}
+
+.conteiner ol {
+    list-style-position: inside;
+}
+
+.conteiner ol li {
+    margin-bottom: 15px;
+}
+
+.conteiner .box1 {
+    order: 1;
     flex: 1;
-    order: 3;
     align-self: flex-start;
 }
 
-.box2 {
-    background-color: blueviolet;
+.conteiner .box2 {
+    order: 3;
+    flex: 1;
+    align-self: flex-start;
+}
 
-    flex: 2;
+.conteiner .box3 {
     order: 4;
+    flex: 1;
 }
 
-.box3 {
-    background-color: bisque;
-    
-    flex: 1;
-    order: 1;
-    align-self: flex-end;
-
-}
-.box4 {
-    flex: 1;
+.conteiner .box4 {
     order: 2;
-    
-    background-color: cadetblue;
+    flex: 2;
 }
-
-

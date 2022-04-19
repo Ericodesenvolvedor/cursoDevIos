@@ -364,3 +364,45 @@ espaço restante seja distribuído.
 ## Grid line
 - São as linhas divisorias que formam a estrutura do grid. Elas podem ser as 
 retas verticais ou horinzontais e estar em qualquer lado da linha ou coluna. 
+
+# Grid parte 2 
+
+## Grid template columns e rows
+
+- grid template columns define o tamanho das nossas colunas e também indicar quantas
+colunas teremos.
+
+- grid template rows define o tamanhos das nossas linhas e também indica quantas
+linhas teremos.
+
+## Shorthand 
+
+- grid template: "" valor da linha "" valor da linha / valor das colunas 
+
+exemplo: "header header" 25% "main main" 20% / 10% 10%
+
+## alinhamento do conteiner
+
+- align-content: vai alinhar o pai no espaço em vertical.
+- justify-content: vai alinhar o pai no espaço na horizontal.
+- place-content: um shorthand para align-content e justify-content
+
+## alinhamento dos itens 
+
+- align-items: vai alinhar seus itens filhos no espaço em vertical do seu pai.
+- justify-items: vai alinhar seus itens filhos no espaço em horizontal do seu pai.
+- place-items: um shorthand para align-items e justify-items.
+
+## grid auto columns e grid auto rows
+
+- grid auto columns: vai fazer com que todas as colunas tenham um valor fixo,
+quando você passar do número de itens suportados definido por você. 
+
+exemplo : grid-template-columns: 20px 20px (foram criados duas colunas, caso 
+você tenha mais um item, você estará criando outra coluna)
+
+- grid auto rows: vai fazer com que todas as linhas tenham um valor fixo,
+quando você passar do número de itens suportados definido por você. 
+
+exemplo : grid-template-rows: 20px 20px (foram criados duas linhas, caso 
+você tenha mais um item, você estará criando outra linha).

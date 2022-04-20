@@ -12,51 +12,68 @@ html {
 body {
     background-color: #004770;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
+
+/* ---------------------- HEADER ------------------------- */
 
 header {
     background-color: white;
     width: 100%;
     height: 40vh;
-
+    padding: 15px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
 }
 
-header h1 {
-    color: #004770;
-    font-weight: bold;
-    font-size: 7em;
+header img {
+    max-width: 400px;
 }
 
-header span {
-    font-size: 3em;
-    color: #737266;
-    font-weight: bold;
+header div h1 {
+    color: #6c82ff;
+    font-weight: normal;
+    font-size: 4em;
+}
+
+header div h2 {
+    font-size: 2.5em;
+    font-weight: normal;
 }
 
 main {
-    max-width: 900px;
-    margin: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+/* ----------------- CONFIGURAÇÕES GLOBAIS ------------------- */
 
 main .card {
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.342);
-    max-height: 300px;
     margin: 20px 0;
+
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 45% 55%;
+    /* grid-template-rows: 300px; */
+    align-items: center;
+    justify-items: center;
 }
 
 .card img {
     object-fit: cover;
+    max-width: 300px;
+}
+
+.card div {
+    align-self: flex-start;
+    margin: 0 5px;
 }
 
 .card h2 {
-    margin: 20px 0;
+    margin: 15px 0;
     font-size: 3.5em;
     font-weight: normal;
     color: #004770;
@@ -65,4 +82,61 @@ main .card {
 .card p {
     max-width: 400px;
     font-size: 1.6em;
+}
+
+/* -------------------- CONFIGURAÇÃO PRIMEIRO CARD ----------------- */
+
+main .card3Colunas {
+    grid-template-columns: 30% 40% 30%;
+}
+
+/* --------------------- FOOTER --------------------------- */
+
+footer {
+    width: 100%;
+    background-color: white;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 940px) {
+
+    main {
+        max-width: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    main .card {
+        width: 85%;
+        padding: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    main .card3Colunas {
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 830px) {
+
+    header {
+        height: 60vh;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header div {
+        margin-top: 20px;
+    }
+
+    header img {
+        max-width: 40%;
+    }
 }

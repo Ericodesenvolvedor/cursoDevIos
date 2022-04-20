@@ -351,7 +351,7 @@ espaço restante seja distribuído.
 
 - permite o alinhamento seja substituido dos demais itens.
 
-# Grid CSS Layout 
+# Grid CSS Layout - 14/04
 
 - O que é Grid.
 - Propriedades do elemento pai (Grid Container).
@@ -365,7 +365,9 @@ espaço restante seja distribuído.
 - São as linhas divisorias que formam a estrutura do grid. Elas podem ser as 
 retas verticais ou horinzontais e estar em qualquer lado da linha ou coluna. 
 
-# Grid parte 2 
+## Sexta-feira - 15/04 - Feriado
+
+# Grid parte 2 - 18/04
 
 ## Grid template columns e rows
 
@@ -406,3 +408,18 @@ quando você passar do número de itens suportados definido por você.
 
 exemplo : grid-template-rows: 20px 20px (foram criados duas linhas, caso 
 você tenha mais um item, você estará criando outra linha).
+ 
+# Grid e Flexbox - 19/04
+
+objetivos: 
+
+- Compreender a criação de diferentes layouts com o uso
+do Grid CSS e flexbox;
+- Conhecer as diversas propriedades do Grid CSS e flexbox;
+- Aplicar os recursos do Grid CSS e flexbox nas folhas de
+estilo.
+
+## impares e pares usando nth-child
+
+- odd: impar
+- even: par

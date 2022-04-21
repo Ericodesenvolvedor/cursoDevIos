@@ -69,7 +69,6 @@ main .card {
 }
 
 .card div {
-    align-self: flex-start;
     margin: 0 5px;
 }
 

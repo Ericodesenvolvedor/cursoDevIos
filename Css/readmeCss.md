@@ -423,3 +423,16 @@ estilo.
 
 - odd: impar
 - even: par
+
+# Bootstrap Parte 1 - 20/04 
+
+objetivos:
+
+- Conhecer o framework Bootstrap;
+- Aplicar o framework Bootstrap na criação de páginas web.
+
+O que é bootstrap:
+
+Bootstrap é um framework web livre e de código aberto (opensource) 
+para o desenvolvimento em HTML, CSS e JavaScript, quevocê pode usar para 
+o projetar os componentes da interface e do front-end de sites e aplicações web.

@@ -436,3 +436,11 @@ O que é bootstrap:
 Bootstrap é um framework web livre e de código aberto (opensource) 
 para o desenvolvimento em HTML, CSS e JavaScript, quevocê pode usar para 
 o projetar os componentes da interface e do front-end de sites e aplicações web.
+
+# Quinta-feira - feriado - 21/04/22
+
+# sexta-feira - feriado 22/04/22
+
+# Bootstrap 2 - 25/04/22
+
+- Baixando arquivo txt da aula.

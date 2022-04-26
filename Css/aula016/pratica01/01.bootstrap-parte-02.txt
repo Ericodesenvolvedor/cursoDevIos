@@ -1,0 +1,160 @@
+Exemplo Bootstrap – Parte 02
+
+<!-- Formulários -->
+Nome Completo
+Profissão
+E-mail
+Mensagem
+
+
+Formação
+Ensino fundamental
+Ensino médio
+Ensino superior
+Outro
+
+Cidade
+
+
+Enviar Arquivo
+Apenas arquivos png e jpg.
+
+
+Seletor de Cores
+Enviar
+
+
+<!-- Tabelas -->
+
+#
+Primeiro Nome
+Segundo Nome
+Idade
+
+1
+Jill
+Smith
+50
+
+2
+Eve
+Jackson
+24
+
+3
+John
+Doe
+34
+
+<!-- Tabela Segundo Exemplo -->
+
+Tabela 01: Dinheiro guardado mensalmente
+
+Mês
+Valor
+
+Janeiro
+R$100,00
+
+
+Fevereiro
+R$50,00
+
+Março
+R$25,00
+
+Abril
+R$40,00
+
+<!-- Listas -->
+
+<!-- Lista básica -->
+
+Item Um
+Item Dois
+Item Três
+Item Quatro
+
+<!-- Lista com links -->
+
+Link atual
+
+Segundo link
+Terceiro link
+Quarto link
+
+
+<!-- Lista com botões -->
+
+Botão atual
+
+Segundo botão
+Terceiro botão
+Quarto botão
+
+
+<!-- Lista com efeito flush -->
+
+Item Um
+Item Dois
+Item três
+Item Quarto
+
+
+<!-- Lista numerada -->
+
+Janeiro
+Fevereiro
+Março
+
+
+<!-- Lista colorida -->
+
+Item com estilo padrão na lista
+Item com estilo primary na lista
+Item com estilo secondary na lista
+Item com estilo success na lista
+Item com estilo danger na lista
+Item com estilo warning na lista
+Item com estilo info na lista
+Item com estilo light na lista
+Item com estilo dark na lista
+
+
+
+<!-- Cards -->
+
+Garanta a sua formação profissional
+O IOS lançou uma edição especial dos seus cursos, que vão acontecer de forma online, com
+encontros presenciais (mediante orientações de saúde de cada região) e, claro, totalmente gratuitos.
+
+Saiba Mais
+
+
+<!-- Cards com listas exemplo 01 -->
+
+Um item
+Um segundo item
+Um terceiro item
+
+
+<!-- Cards com listas exemplo 02 -->
+
+Cabeçalho exemplo 02
+
+Um item<
+Um segundo item
+Um terceiro item
+
+
+<!-- Card com diversos elementos-->
+
+Título do Card
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, soluta.
+
+Um item
+Um segundo item
+Um terceiro item
+
+Um link do Card
+Outro link

@@ -444,3 +444,4 @@ o projetar os componentes da interface e do front-end de sites e aplicações we
 # Bootstrap 2 - 25/04/22
 
 - Baixando arquivo txt da aula.
+- Utilizando configurações de formularios, listas, entre outros.

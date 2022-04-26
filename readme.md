@@ -12,6 +12,7 @@
 ## Tecnologias usadas
 - HTML5
 - CSS3
+- Bootstrap
 
 # Alguns sites úteis
 

@@ -17,28 +17,94 @@
         1º Fazer uma sessão
         2º Criar duas divisões, uma contendo imagem e titulo e a outra um formulário.
         3º Ajustar tamanhos, espaçamentos, cores e letras.
+        4º Pensar no restante.
     -->
 
     <section id="formLogin">
-        <figure>
+        <div id="left-login">
+            <h1>Compras online, <br>
+            Conheça a comunidade</h1>
+
             <img src="./assets/imagens/imagem-tela-login.svg" alt="Imagem ilustrativa de uma mulher saindo com um carrinho de compras, ela está em cima de um notbook, então dá a impressão de estar relacionado a compras online." class="w-75">
-        </figure>
+        </div>
 
-        <form action="#" method="post">
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
+        <div id="right-login">
+            <form action="#" method="post">
+                <h2>Login</h2>
 
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+
+                <button type="button" class="btn btn-primary btn-lg">Enviar</button>
+            </form>
+        </div>
     </section>
 
+    <main>
+        <section id="sobre">
+            <figure id="left-sobre">
+                <img src="./assets/imagens/recebendoProduto-icon.svg" alt="">
+            </figure>
+
+            <div id="right-sobre">
+               <div id="texto-sobre">
+                    <h2>Como funciona?</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis quisquam impedit aperiam eaque unde sapiente esse quaerat dolore dicta. Veritatis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis fugiat minima cumque similique impedit error sequi neque eligendi inventore quae dolores illum, non porro velit recusandae deserunt provident optio nisi?</p>        
+                </div>
+
+                <figure id="icons-sobre">
+                    <img src="./assets/imagens/predio-icon.svg" title="Novas franquias" alt="">
+                    <img src="./assets/imagens/cliente-icon.svg" title="Clientes" alt="">
+                    <img src="./assets/imagens/avaliacao-icon.svg" title="Melhores avaliações" alt="">
+                </figure>    
+            </div>
+        </section>
+
+        <section id="list-setores">
+            <h2>Setores mais Acessados</h2>
+            
+            <ol class="list-group list-group-numbered" id="list">
+                <li class="list-group-item">Eletronicos</li>
+                <li class="list-group-item">Roupas</li>
+                <li class="list-group-item">Beleza</li>
+            </ol>
+        </section>
+
+        <section id="contato">
+            <h2>Fale conosco</h2>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d457.3395684332945!2d-46.62446627532113!3d-23.506717056495198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef6283c6753e7%3A0xc96724dd19a6d04b!2sInstituto%20da%20Oportunidade%20Social!5e0!3m2!1spt-BR!2sbr!4v1651084239179!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <address>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" id="nome">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Ericodesenvolvedor &copy;</p>
+    </footer>
 
     <script 
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">

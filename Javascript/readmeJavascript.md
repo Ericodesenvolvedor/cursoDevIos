@@ -64,3 +64,66 @@ mesmo valor.
 - Strings são sequência de caracteres 
 - devem ser envolvidas utilizando aspas simples ou aspas duplas, 
 mesmo se elas contêm zero ou mais caracteres.
+
+# Console, variáveis e operadores - 27/04/2022
+
+Temas para ser abordados:
+
+- Tipos de Dados.
+- Operadores.
+- Variáveis.
+- Objeto do Console.
+
+## Tipos de dados
+
+- Dentro do mundo do computador, existem apenas dados.
+- Você pode ler dados, modificar dados, criar dados.
+- Todos esses dados são armazenados como longas sequências de bits.
+
+### Numérico 
+
+- Valores podem ser o tipo numérico, que representam valores
+constantes. 
+
+- representado como ponto flutuante de 64 bits
+
+### String
+
+- tipo de dado, que é usado para representar texto.
+
+- aspas simples ou aspas duplas. "String"
+
+### Booleano
+
+- distingue apenas duas possibilidades.
+- verdadeiro e falso 
+
+### Null e undefined
+
+- ausência de um valor significativo.
+
+## Operadores
+
+### Operações aritméticas
+
++ = Mais
+- = Menos
+/ = Divisão
+* = Multiplicação
+** = Exponenciação
+% = Resto
+
+### Precedência dos operadores
+
+() = Primeiro
+** = Segundo
+*/ = Terceiro
++- = Quarto
+
+### Relacionais
+
+==, !=, >, <, >=, <= = Igual, diferente, maior que, menor que, maior ou diferente, menor ou diferente.
+
+### Lógico
+
+- &&, ||, ! = e, ou, não

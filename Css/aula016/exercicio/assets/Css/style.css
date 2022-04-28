@@ -133,61 +133,61 @@ body {
     margin-right: 20px;
 }
 
-/* ---------------------- PRODUTOS --------------------- */
-
-#produtos {
-    width: 100vw;
-    height: 70vh;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#produtos h2 {
-    font-size: 3em;
-    font-weight: bold;
-    color: #6b64cc;
-}
-
-.card-group .card {
-   width: 500px;
-}
-
 /* -------------- SETORES MAIS ACESSADOS ---------------- */
 
-#list-setores {
-    height: 70vh;
-    background-color: #8279ff;
-    
+#setores {
+    background-color: #464285;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px 30px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#setores h2 {
+    color: rgba(255, 255, 255, 0.603);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#setores .tabela table {
+    width: 500px;
+}
+
+#setores .color {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-#list-setores h2 {
-    margin-bottom: 40px;
-    font-size: 2.7em;
-    font-weight: bold;
-    color: rgb(36, 36, 36);
+/* --------------------- CARDS ------------------------- */
+
+#card-produtos {
+    background-color: #2e2b57;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#list-setores #list{
-    width: 40%;
-    border: 2px solid rgb(32, 32, 32);
+#card-produtos .card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+    width: 300px;
+    height: 350px;
 }
 
 /* ------------------------ CONTATOS ---------------------- */
 
 #contato {
+    background-color: #aaccff;
     width: 100vw;
     height: 100vh;
     padding: 0 10%;
 
-    background-color: #aaccff;
-    
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
@@ -223,7 +223,7 @@ body {
 
 footer {
     width: 100%;
-    background-color: #4b478f;
+    background-color: #2e2b57;
 }
 
 footer p {

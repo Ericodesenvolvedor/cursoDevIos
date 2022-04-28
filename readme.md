@@ -1,6 +1,6 @@
 # Programação web Ios
 
-Neste repositório você encontrará muitas pastas referentes ao que eu estou estudando no momento referente a tecnologias web.
+Neste repositório você encontrará muitas pastas referentes ao que eu estou estudando no momento, referente a tecnologias web.
 
 ## Tecnologias utilizadas
 

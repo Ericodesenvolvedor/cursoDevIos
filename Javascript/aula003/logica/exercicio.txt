@@ -1,0 +1,58 @@
+1) 4 apartamentos - 4 meninas
+
+passos: 
+
+1- bete reclama do barulho cachorro
+2- bete não mora no ultimo
+3- joana não mora no ultimo e mora um andar acima de kelly
+4- kelly - passarinho - 1 andar
+5- joana - 2 andar
+6- bete - terceiro andar 
+7- yara - ultimo
+
+Resposta: f
+
+2) 
+
+- p or q
+
+v ou v = verdadeiro
+v ou f = verdadeiro
+f ou v = verdadeiro
+f ou f = falso
+
+- p and q 
+
+v and v = verdadeiro
+v and f = falso
+f and v = falso
+f and f = falso
+
+Not p 
+
+Not v = falso 
+Not v = falso
+Not f = verdadeiro
+Not f = verdadeiro
+
+3)
+
+Se estiver chovendo = O gato fica no quarto ou no sotão.
+Se o gato está no quarto = O rato esta na toca e o queijo na geladeira.
+Se o queijo estiver na mesa = o rato esta no quarto
+
+chovendo e o queijo está na mesa
+
+gato = quarto ou sotão (mas como o rato não está no quarto, ele está no sotão)
+rato = quarto
+
+Onde está o gato e o rato.
+
+Resposta: O gato está no sotão e o rato está no quarto
+
+4) 
+
+1° Posição = Raquel, 11, Gatos, Branco, Laranja, 45
+2° Posição = Vivian, 10, Passaros, Azul, Limonada, 55
+3° Posição = Bruna, 9, Cachorro. Amarelo, Maracujá, 40
+4° Posição = Ana, 8, Peixe, Verde, Morango, 50.

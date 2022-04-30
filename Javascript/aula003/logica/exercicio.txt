@@ -56,3 +56,115 @@ Resposta: O gato está no sotão e o rato está no quarto
 2° Posição = Vivian, 10, Passaros, Azul, Limonada, 55
 3° Posição = Bruna, 9, Cachorro. Amarelo, Maracujá, 40
 4° Posição = Ana, 8, Peixe, Verde, Morango, 50.
+
+5) Faça um algoritmo que descreva a preparação de um bolo de chocolate.
+
+Cenario inicial: Você está na porta da cozinha, o armario está na sua frente, geladeira ao lado do armario e utensilhos em cima da mesa ao centro da cozinha.
+
+Iniciando algoritmo
+
+função chegarNoArmario()
+
+1ºPasso: Ande 10 passos para frente.
+2ºPasso: Segure a maçaneta da porta.
+3ºPasso: Dê um passo para trás e puxe a maçaneta.
+4ºPasso: Se a porta estiver meio aberta, abrir mais, senão, deixar como está.
+
+função verificarIngredientes()
+
+1ºPasso: Olhar para cima e visualizar a prateleira superior.
+2ºPasso: Verificar se há [Chocolate em pó, açucar, farinha de trigo, óleo, leite, fermento em pó].
+3ºPasso: Se tiver algum desses itens, elevar a mão até o item, segurar, virar 180 graus com o item na mão, andar 5 passos, virar 45 graus a direita, andar 5 passos, pare, Coloque o item na mesa. Senão tiver nenhum desses itens na prateleira de superior, verifique as outras prateleiras usando o passo 2 e 3 da função verificarIngredientes.
+
+função chegarNaGeladeira()
+
+1ºPasso: vire 180 graus
+2ºPasso: ande 5 passos
+3ºPasso: vire 45 graus para a esquerda
+4ºPasso: ande 4 passos
+5ºPasso: vire 45 graus para a esquerda
+6ºPasso: ande 4 passos e pare.
+7ºPasso: vire 45 graus para direita.
+8ºPasso: Segure a maçaneta da porta da geladeira
+9ºPasso: Dê um passo para trás e puxe a maçaneta.
+10ºPasso: Se a porta estiver meio aberta, abrir mais, senão, deixar como está.
+
+função pegarOvos()
+
+1ºPasso: visualizar as prateleiras da geladeira
+2ºPasso: Procurar ovos.
+3ºPasso: Se você achou os ovos, pegar 2 ovos na mão e segurar, senão, continuar procurando.
+4ºPasso: Dê um passo para trás, segurar na porta da geladeira e fechar.
+5ºPasso: Vire 180 graus.
+6ºPasso: ande 5 passos
+7ºPasso: vire 45 graus a direita.
+8ºPasso: ande um passo e pare.
+9ºPasso: coloque os dois ovos em cima da mesa.
+
+função adicionandoIngredientes()
+
+1ºPasso: Pegar uma vasilha que está em cima da mesa e colocar próximo a você ainda em cima da mesa.
+2ºPasso: Pegar uma xicará para medir as propoções da receita, colocar ao lado da vasilha.
+3ºPasso: Pegar xicará na mão, enfiar no pote onde tem chocolate em pó e encher a xicará com o cholate.
+4ºPasso: Colocar o chocolate em pó que está na xicará, na vasilha.
+5ºPasso: enfiar a xicará no pote onde tem açucar encher a xicará com o açucar.
+6ºPasso: Colocar o acuçar que está na xicará dentro da vasilha.
+7ºPasso: enfiar a xicará no pote onde tem farinha de trigo encher a xicará com a farinha de trigo.
+8ºPasso: Colocar a farinha de trigo que está na xicará dentro da vasilha.
+9ºPasso: repetir os passos 7 e 8.
+10ºPasso: visualizar o leite, colocar a xicará em cima da mesa, pegue o leite, coloque leite na xicará até estar quase cheia.
+11ºPasso: Pegar xicará na mão, colocar o leite que está na xicará dentro da vasilha.
+12ºPasso: Repetir os passos 10 e 11.
+13ºPasso: Coloque a xicará em cima da mesa.
+14ºPasso: visualizar a colher e pegar a colher na mão.
+15ºPasso: visualizar Óleo e pegar o óleo com a outra mão.
+16ºPasso: Coloque Óleo na colher até estar quase cheia.
+17ºPasso: Colocar o óleo da colher dentro da vasilha.
+18ºPasso: Colocar o recepiente do óleo em cima da mesa novamente.
+19ºPasso: visualizar o fermento e pegar o fermento com a mão vazia.
+20ºPasso: Colocar fermento na colher até que esteja quase cheia.
+21ºPasso: Colocar o fermento dentro da vasilha.
+22ºPasso: Colocar o recepiente do fermento em cima da mesa e a colher.
+23ºPasso: Visualizar um dos ovos e pegar na mão.
+24ºPasso: Quebrar ovo com cuidado e colocar dentro da vasilha sem deixar cair cascas.
+25ºPasso: Colocar todas as cascas de ovo deve estar em cima da mesa.
+26ºPasso: Pegar outro ovo e repetir o passo 24 e 25.
+
+função baterMassa()
+
+1ºPasso: Visualize a colher e pegue a colher na mão.
+2ºPasso: Leve a colher a vasilha.
+3ºPasso: Bata a massa com a colher em ritmo moderado e constante.
+4ºPasso: Verificar a espessura da massa. Se estiver boa, pare de bater, senão continue.
+5ºPasso: Retirar a colher da vasilha e colocar em cima da mesa.
+6ºPasso: Visualizar a forma, pegar a vasilha que contem a massa, e vá até a forma.
+7ºPasso: Coloque a massa dentro da forma com cuidado para não deixar cair.
+8ºPasso: Pegar forma na mão
+
+função chegarNoFogao()
+
+1ºPasso: vire 180 graus.
+2ºPasso: ande 1 passo.
+3ºPasso: vire 45 graus para a esquerda.
+4ºPasso: Ande 4 passos.
+5ºPasso: repita o 3ºPasso.
+6ºPasso: repita o 4ºPasso.
+7ºPasso: vire 45 graus para a direita.
+8ºPasso: Dê um passo para frente e segure a maçaneta do fogão.
+9ºPasso: Dê um passo para trás e puxe a maçaneta.
+10ºPasso: Se a porta estiver meio aberta, abrir mais, senão, deixar como está.
+
+função assarBolo()
+
+1ºPasso: Coloque a forma dentro do fogão
+2ºPasso: Feche a porta do fogão.
+3ºPasso: Visualizar os botões do fogão
+4ºPasso: Ajustar o botão de graus para 180 graus.
+5ºPasso: Apertar botão para o fogão ligar.
+6ºPasso: Esperar 30 minutos.
+7ºPasso: Verificar bolo
+8ºPasso: Se o bolo estiver bom, desligar forno. Senão, deixar assar mais.
+9ºPasso: repetir os passos 9 e 10 da função chegarNoFogao.
+10ºPasso: Deixar o forno esfriar.
+11ºPasso: Se o forno estiver frio, retirar forma. Senão esperar mais.
+12ºPasso: Colocar forma de bolo na mesa.

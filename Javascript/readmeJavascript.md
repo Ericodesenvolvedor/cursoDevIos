@@ -127,3 +127,31 @@ constantes.
 ### Lógico
 
 - &&, ||, ! = e, ou, não
+
+# Objetos, Funções e Eventos 
+
+objetivos: 
+
+- Funções
+- Arrow Function
+- Objetos
+- Eventos
+
+## Funções
+
+- Funções são usadas em programação para executar
+ações que são rotineiramente executadas em um programa.
+
+- Usar CamelCase para funções pode ser o recomendado.
+
+## Arrow function 
+
+- Arrow Function foi introduzido em 2015 no ES6.
+- Uma forma de fazer funções atualizado. 
+
+# Object 
+
+- Um objeto é uma coleção de dados e/ou funcionalidades
+relacionadas (que geralmente consistem em diversas variáveis e
+funções — que são chamadas de propriedades e métodos quando
+estão dentro de objetos).

@@ -149,9 +149,14 @@ ações que são rotineiramente executadas em um programa.
 - Arrow Function foi introduzido em 2015 no ES6.
 - Uma forma de fazer funções atualizado. 
 
-# Object 
+## Object 
 
 - Um objeto é uma coleção de dados e/ou funcionalidades
 relacionadas (que geralmente consistem em diversas variáveis e
 funções — que são chamadas de propriedades e métodos quando
 estão dentro de objetos).
+
+## Eventos
+
+- ações executadas quando algo acontece na página web
+- Normalmente chamam funções do javascript.

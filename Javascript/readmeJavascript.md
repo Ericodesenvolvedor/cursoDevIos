@@ -128,7 +128,7 @@ constantes.
 
 - &&, ||, ! = e, ou, não
 
-# Objetos, Funções e Eventos 
+# Objetos, Funções e Eventos - 02/05/2022
 
 objetivos: 
 
@@ -160,3 +160,42 @@ estão dentro de objetos).
 
 - ações executadas quando algo acontece na página web
 - Normalmente chamam funções do javascript.
+
+# Arrays - 03/05/2022
+
+objetivos:
+
+- Array unidimensional
+- Arrays bidimensionais
+- Convertendo Array em String
+- Propriedade: Tamanho do array
+- Inserir e remover elemento no array
+- Apagando um elemento em uma posição específic
+
+## Array
+
+- Arrays são usados para armazenar múltiplos valores em uma única variável.
+- Podem ter mais de uma ou mais dimensões.
+- primeiro valor de um array possui índice zero (0).
+
+### Array bidimencional
+(1,1)
+- Linha e coluna.
+
+### array tridimencional
+
+(1, 1, 1)
+- Primeira posição, qual planilha é.
+- Segundo valor, linha.
+- Terceiro valor, coluna.
+
+### Metodos
+
+toString: Vai transformar o array em string 
+join: Você escolhe o tipo de separação, seja por virgula ou outros jeitos. ('***')
+pop: remove o último elemento e guarda ele.
+push: Insire um elemento no final do array e retorna o novo tamanho do novo array.
+shift: Remove o primeiro elemento e retorna ele.
+unshift: Incluir um elemento no inicio e retorna o tamanho do array.
+delete nomeArray posição entre conchetes: Vai excluir um determinado elemento do array, porém,
+seu valor fica como undefined.  

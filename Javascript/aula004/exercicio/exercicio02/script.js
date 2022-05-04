@@ -14,12 +14,12 @@ console.log('Essa é a lista completa concatenada ' + listaEntretenimento)
 const mediaAlunos = [5, 4, 8, 10, 5, 2, 6]
 console.log('Notas alunos: ' + mediaAlunos)
 /* 
-    Esse método faz uma filtragem na array. No caso está com uma 
+    Esse método faz uma filtragem na array. Essa está com uma 
     função verificando os números maior ou igual a 6
 */
 console.log('Sem filtro: ' + mediaAlunos)
 const passouOuReprovou = mediaAlunos.filter(
-    function chegarNotas(notas) {
+    function checarNotas(notas) {
         return notas >= 6
     }
 )

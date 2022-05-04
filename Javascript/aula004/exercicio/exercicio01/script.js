@@ -1,41 +1,51 @@
+// Objetivo: a cada acontecimento, a lista atualiza e o nome da pessoa que entrou ou saiu deve ser falado.
+
+// Facilitar na hora de falar os nomes
+const pessoas = ['Amanda', 'Joaquim', 'José', 'Silva', 'Xavier', 'Zuleica', 'Silvana']
+
 // Começando array
-let party = ['Joaquim','José', 'Silva', 'Xavier']
+let festa = ['Joaquim', 'José', 'Silva', 'Xavier']
+console.log('Na festa estão: ' + festa)
 
-console.log('Pessoas que estão no começo da festa: ')
-console.log(party)
+// Entrou amanda 
 
-// Adicionando nova pessoa
+let festa1 = festa
+festa1.unshift('Amanda')
+console.log(`${pessoas[0]} entrou na festa`)
+console.log('Na festa estão: ' + festa1)
 
-party.unshift('Amanda')
-console.log(`${party[0]} entrou na festa`)
-console.log(party)
+// Saiu xavier
 
-// Retirando pessoa
+let festa2 = festa1
+console.log(`${pessoas[4]} saiu da festa`)
+festa2.pop()
+console.log('Na festa estão: ' + festa2)
 
-let pegarUltimo = party.pop()
-console.log(`${pegarUltimo} saiu da festa`)
-console.log(party)
+// Entrou Zuleica
 
-// Adicionando pessoa 
+let festa3 = festa2
+festa3.push('Zuleica')
+console.log(`${pessoas[5]} entrou na festa`)
+console.log('Na festa estão: ' + festa3)
 
-party.push('Zuleica')
-console.log(`${party[4]} entrou na festa`)
-console.log(party)
+// Amanda saiu da festa
+let festa4 = festa3
+festa4.shift()
+console.log(`${pessoas[0]} saiu da festa`)
+console.log('Na festa estão: ' + festa4)
 
-// retirando pessoa
+// Silva saiu da festa
+let festa5 = festa4
+delete festa5[2]
+console.log(`${pessoas[3]} saiu da festa`)
+console.log('Na festa estão: ' + festa5)
 
-console.log(`${party[0]} Saiu da festa`)
-party.shift()
-console.log(party)
+// Silvana entrou na festa
+let festa6 = festa5
+festa6[2] = 'Silvana' 
+console.log(`${pessoas[6]} entrou na festa`)
+console.log('Na festa estão: ' + festa6)
 
-// retirando pessoa posição 2
+// Pessoas restantes na festa
 
-console.log(`${party[2]} Saiu da festa`)
-delete party[2]
-console.log(party)
-
-// Colocando pessoa na posição vazia (2)
-
-party[2] = 'Silvana'
-console.log(`${party[2]} Entrou na festa`)
-console.log(party)
+console.log('Pessoas restantes na festa: ' + festa6.length)

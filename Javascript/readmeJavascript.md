@@ -198,4 +198,19 @@ push: Insire um elemento no final do array e retorna o novo tamanho do novo arra
 shift: Remove o primeiro elemento e retorna ele.
 unshift: Incluir um elemento no inicio e retorna o tamanho do array.
 delete nomeArray posição entre conchetes: Vai excluir um determinado elemento do array, porém,
-seu valor fica como undefined.  
+seu valor fica como undefined.
+
+# Strings - 09/05/2022
+
+objetivos:
+
+- Mais sobre strings
+- Concatenando strings
+- Métodos de strings
+- Acesso a caracteres
+- Tamanho da string
+- Maiúsculas e minúsculas
+- Substring e Slipt
+- Substituir uma string dentro da string
+- Remover espaços da string
+- Métodos de buscar em strings

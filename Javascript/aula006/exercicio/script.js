@@ -73,12 +73,12 @@ const notasAna = alunos[2].nota
 const notasPablo = alunos[3].nota
 
 // Somando notas do array com o método reduce
-const mediaCarlos = notasCarlos.reduce(nota) / 4
-const mediaPedro = notasPedro.reduce(nota) / 4
-const mediaAna = notasAna.reduce(nota) / 4
-const mediaPablo = notasPablo.reduce(nota) / 4
+const mediaCarlos = notasCarlos.reduce(somarNotas) / 4
+const mediaPedro = notasPedro.reduce(somarNotas) / 4
+const mediaAna = notasAna.reduce(somarNotas) / 4
+const mediaPablo = notasPablo.reduce(somarNotas) / 4
 
-function nota(nota1, nota2) {
+function somarNotas(nota1, nota2) {
     return nota1 + nota2 
 }
 

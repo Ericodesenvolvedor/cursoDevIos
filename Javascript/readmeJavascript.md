@@ -214,3 +214,23 @@ objetivos:
 - Substituir uma string dentro da string
 - Remover espaços da string
 - Métodos de buscar em strings
+
+# Array de Objetos
+
+objetivos:
+
+- Compreender o uso de objetos e sua sintaxe;
+- Conhecer o formato JSON.
+
+## JSON
+
+(JavaScript Object Notation) é um formato compacto, de padrão aberto e independente
+usado para a troca de dados entre sistemas de forma simples e rápida
+
+Transformar objeto em json:
+
+- JSON.stringfy()
+
+Transformar json em objeto:
+
+- .parse()

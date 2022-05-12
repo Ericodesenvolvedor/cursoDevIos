@@ -234,3 +234,27 @@ Transformar objeto em json:
 Transformar json em objeto:
 
 - .parse()
+
+# Estruturas condicionais
+
+- Compreender o uso de estruturas e desvios condicionais;
+- Conhecer o operador ternário;
+- Aprender a utilização do swith-case.
+
+## Desvios condicionais
+
+- decidem o fluxo de execução de programa.
+- estruturas condicionais simples (if), composta (if-else) e switch.
+- decidir o que deve ser executado 
+
+### Estrutura condicional simples
+
+- usada para verificar se dada condição é atendida
+- Se for, um conjunto de instruções deverá ser executado
+- Se não, o fluxo de execução seguirá após o fim do bloco de  decisão
+
+### Estrutura condicional composta
+
+- A estrutura if-else prevê dois conjuntos de instruções para serem
+executadas.
+- Caso seja verdadeiro, executa um bloco, caso falso, executa outro.

@@ -258,3 +258,24 @@ Transformar json em objeto:
 - A estrutura if-else prevê dois conjuntos de instruções para serem
 executadas.
 - Caso seja verdadeiro, executa um bloco, caso falso, executa outro.
+
+# Laços de repetição - 12/05/2022
+
+objetivos:
+
+- Laço while.
+- Laço do-while.
+- Laço For.
+- Laços de repetição e arrays.
+
+## Introdução
+
+- Comandos utilizados para executar instruções mais de uma vez
+- Loops de repetição de uma ou mais instruções com um número limitado de vezes.
+- Testar uma condição
+
+### while
+
+- Repetição com teste no início do comando.
+- Executado enquanto a condição for verdadeira.
+- Contador com variável de controle da condição.

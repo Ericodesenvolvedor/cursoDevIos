@@ -279,3 +279,20 @@ objetivos:
 - Repetição com teste no início do comando.
 - Executado enquanto a condição for verdadeira.
 - Contador com variável de controle da condição.
+
+### do-while
+
+- Os comandos repetidos são executados pelos menos uma vez.
+- Condição é sempre testada no final.
+
+### For
+
+- Teste lógico no início do laço.
+- Não executará nenhuma repetição, sem antes testar a condição.
+- Chaves podem ser ocultadas se o comando contiver apenas uma instrução.
+
+### repetição e arrays
+
+- Percorrer array ou objetos de arrays.
+- Usar o length para definir o final de sua execução.
+- ex: myarray.lenght/ myarray(contador).

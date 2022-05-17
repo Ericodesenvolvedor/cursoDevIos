@@ -296,3 +296,32 @@ objetivos:
 - Percorrer array ou objetos de arrays.
 - Usar o length para definir o final de sua execução.
 - ex: myarray.lenght/ myarray(contador).
+
+# Métodos de alto nível para manipular arrays - 16/05/2022
+
+- Método forEach()
+- Método map()
+- Método filter()
+- Método find()
+
+## Método forEach()
+
+- executa uma determinada função para cada um dos elementos de um array.
+- não é executado em elementos vazios do array.
+
+## Método map()
+
+- cria um novo array com o resultado gerado pela chamada de uma função 
+para cada elemento do array.
+
+## Método filter()
+
+- O método filter() cria um novo array com o resultado do filtro aplicado
+pelo método.
+- elementos que “passaram” na condição configurada no filtro.
+
+## Método find()
+
+- O método find() retorna o valor dos elementos do array que passarem na
+condição configurada.
+- porém o find() não cria um novo array.

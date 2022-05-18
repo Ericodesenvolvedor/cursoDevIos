@@ -1,18 +1,18 @@
 function Pessoa(nome, date) {
     this.nome = nome;
     this.dataNascimento = new Date(date[0], date[1], date[2], date[3]);
-    this.ano = this.dataNascimento.getFullYear()
+    this.ano = this.dataNascimento.getFullYear();
     this.month = this.dataNascimento.getMonth() + 1
-    this.dia = this.dataNascimento.getDate()
+    this.dia = this.dataNascimento.getDate();
     
-    this.atual = new Date()
-    this.anoAtual = this.atual.getFullYear()
-    this.mesAtual = this.atual.getMonth() + 1
-    this.diaAtual = this.atual.getDate()
+    this.atual = new Date();
+    this.anoAtual = this.atual.getFullYear();
+    this.mesAtual = this.atual.getMonth() + 1;
+    this.diaAtual = this.atual.getDate();
 
     this.idade = function() {
         if (this.mesAtual < this.month || this.mesAtual == this.month && this.diaAtual < this.dia) {
-            idade = this.anoAtual - this.ano
+            idade = this.anoAtual - this.ano;
         }
         return --idade
     }
@@ -34,11 +34,11 @@ for (var c = 0; c < pessoas.length; c++) {
     
     function verificandoMes() {
         if (pessoas[c].mesAtual < pessoas[c].month) {
-            console.log(`${pessoas[c].nome} tem ${pessoas[c].idade()} e ainda não fez aniversário`)
+            console.log(`${pessoas[c].nome} tem ${pessoas[c].idade()} e ainda não fez aniversário`);
         } else {
-            console.log(`${pessoas[c].nome} tem ${pessoas[c].idade()} e já fez aniversário`)
+            console.log(`${pessoas[c].nome} tem ${pessoas[c].idade()} e já fez aniversário`);
         }
     }
 
-    verificandoMes()
+    verificandoMes();
 }

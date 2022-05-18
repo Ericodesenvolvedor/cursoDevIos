@@ -325,3 +325,9 @@ pelo método.
 - O método find() retorna o valor dos elementos do array que passarem na
 condição configurada.
 - porém o find() não cria um novo array.
+
+# Classes e funções - 17/05/2022
+
+- Compreender o conceito de classes e sua sintaxe;
+- Conhecer os métodos de uma classe;
+- Aprender o uso do this no contexto de funções.

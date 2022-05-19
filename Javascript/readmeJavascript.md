@@ -331,3 +331,22 @@ condição configurada.
 - Compreender o conceito de classes e sua sintaxe;
 - Conhecer os métodos de uma classe;
 - Aprender o uso do this no contexto de funções.
+
+# Manipulando o DOM Parte 1
+
+objetivos:
+
+- Compreender o uso do DOM (Document Object Model);
+- Manipular elementos e estilos com JavaScript.
+
+## DOM
+
+- interface de programação multiplataforma e independente de linguagem
+- mantida pela entidade World Wide Web Consortium (W3C).
+- representação estruturada do documento como uma árvore.
+- alterar a estrutura, estilo e conteúdo
+
+### Métodos do DOM
+
+- createElement(): cria um novo nó/elemento com um nome específico.
+- appendChild() adiciona o nó/elemento criado em um elemento pai específico.

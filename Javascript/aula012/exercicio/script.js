@@ -26,7 +26,13 @@ btn1.addEventListener('click', imagemSerie);
 
 const mensagemUsuario = ()  => {
     let getName = prompt('Olá visitante, digite o seu nome para ver a mensagem!!')
-    document.body.innerHTML = `Olá ${getName} Bem-vindo a nossa academia.`;
+
+    if (getName.length == 0) {
+        alert('Preencha o campo, tente novamente!');
+    } else {
+        document.body.innerHTML = `Olá ${getName} Bem-vindo a nossa academia.`;
+    }
+
 }
 
 btn2.addEventListener('click', mensagemUsuario);

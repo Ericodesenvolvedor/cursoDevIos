@@ -350,3 +350,5 @@ objetivos:
 
 - createElement(): cria um novo nó/elemento com um nome específico.
 - appendChild() adiciona o nó/elemento criado em um elemento pai específico.
+
+# Manipulando o DOM Parte 2

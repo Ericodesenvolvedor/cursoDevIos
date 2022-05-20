@@ -34,7 +34,7 @@ btn2.addEventListener('click', mensagemUsuario);
 const tabuada = () => {
     let numTabuada = Number(prompt('Informe o número da tabuada que você quer saber:'));
     
-    for(let i = 1; i <= numTabuada; i++) {
+    for(let i = 1; i <= 10; i++) {
         document.write(`${numTabuada} x ${i} = ${numTabuada * i} <br />`);
     }
 }

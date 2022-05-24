@@ -375,3 +375,5 @@ seletor desejado.
 - Retorna todos os elementos presentes no documento que possuam o seletor desejado.
 - o retorna uma lista dos elementos presentes  no documento que coincidam com o 
 seletor ou grupo de seletores especificados.
+
+# Manipulando o DOM Parte 4 - 24/05/2022

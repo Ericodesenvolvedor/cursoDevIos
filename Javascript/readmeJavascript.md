@@ -351,4 +351,27 @@ objetivos:
 - createElement(): cria um novo nó/elemento com um nome específico.
 - appendChild() adiciona o nó/elemento criado em um elemento pai específico.
 
-# Manipulando o DOM Parte 2
+# Manipulando o DOM Parte 2 - 20/05/2022
+
+- Em construção
+
+# Manipulando o DOM Parte 3 - 23/05/2022
+
+Objetivos:
+
+- Método querySelector
+- Eventos
+- Método querySelectorAll
+- Para aprender mais
+
+## querySelector
+
+- Retorna o primeiro elemento dentro do documento que corresponde ao 
+seletor desejado.
+- Parecido com seletores css.
+
+## querySelectorAll
+
+- Retorna todos os elementos presentes no documento que possuam o seletor desejado.
+- o retorna uma lista dos elementos presentes  no documento que coincidam com o 
+seletor ou grupo de seletores especificados.

@@ -377,3 +377,19 @@ seletor desejado.
 seletor ou grupo de seletores especificados.
 
 # Manipulando o DOM Parte 4 - 24/05/2022
+
+Objetivos: 
+
+- Compreender o uso do DOM (Document Object Model);
+- Aplicar código JavaScript para trabalhar com formulários;
+- Conhecer os métodos addEventListener e preventDefault;
+- Validações com RegEx.
+
+## addEventListener 
+
+- evento de um elemento específico
+
+## preventDefault()
+
+- evita que a página seja recarregada pela ação de submeter o formulário, 
+pois essa é uma ação padrão do HTML quando estamos trabalhando com formulários.

@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input[type ="number"]::-webkit-outer-spin-button,
+input[type ="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type ="number"] {
+    -moz-appearance: textfield;
+}
+
+#a-button button {
+    border: none;
+}
+
+#a-button span, #a-button button {
+    display: inline-block;
+    text-align: center;
+    padding: 0.8rem 0;
+    width: 8rem;
+    background-color: #D9CE71;
+}
+
+table {
+    background-color: #FFF386;
+}

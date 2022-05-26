@@ -393,3 +393,18 @@ Objetivos:
 
 - evita que a página seja recarregada pela ação de submeter o formulário, 
 pois essa é uma ação padrão do HTML quando estamos trabalhando com formulários.
+
+# Manipulando o DOM Parte 5 - 25/05/2022
+
+Objetivos: 
+
+- Compreender o uso do DOM (Document Object Model);
+- Aplicar código JavaScript para trabalhar com formulários;
+
+## Evento keyup
+
+- O evento onkeyup ocorre quando o usuário libera uma tecla (no teclado).
+
+## removeChild
+
+- Remove um determinado elemento, de um elemento pai 

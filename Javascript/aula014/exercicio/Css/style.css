@@ -45,7 +45,8 @@ header {
     margin-bottom: 1rem;
 }
 
-#container form div input {
+#container form div input,
+#container form select {
     padding: 0.2rem;
 }
 
@@ -69,4 +70,9 @@ ul {
 ul li {
     padding: 0.5rem;
     border-bottom: 1px solid black;
+    background-color: white;
+}
+
+ul li button {
+    cursor: pointer;
 }

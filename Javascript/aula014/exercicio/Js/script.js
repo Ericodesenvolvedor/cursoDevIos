@@ -22,7 +22,7 @@ function enviar(event) {
         let lista = document.createElement('li');
         let btnExcluir = document.createElement('button')
         dados.appendChild(lista);
-        lista.style.backgroundColor = 'white'
+        
         lista.innerHTML = `Nome: ${nome.value} | Email: ${email.value} | Data de nascimento: ${dataNascimento.value} | Tipo de carta: ${tipoCarta.value}`
         lista.appendChild(btnExcluir);
         btnStyle(btnExcluir)
@@ -35,9 +35,7 @@ function enviar(event) {
         }
     }
 
-    nome.value = ''
-    email.value = ''
-    dataNascimento.value = ''
+    limparForm();
 }
 
 function btnStyle(btn) {
@@ -49,9 +47,7 @@ function btnStyle(btn) {
 
 function pegarIdade(data) {
     let nascimento = data.value
-    nascimento = nascimento.replace('-', ' ')
-    nascimento = nascimento.replace('-', ' ')
-    let array = nascimento.split(' ');
+    let array = nascimento.split('-');
 
     let objetoData = new Date();
     let dia = objetoData.getDate();
@@ -65,9 +61,8 @@ function pegarIdade(data) {
     return --idade
 }
 
-function verificarEmail(e) {
+function verificarEmail() {
     let padrao = new RegExp(/.*@.*\..*/i);
-    console.log(padrao);
 
     if (!padrao.test(email.value)) {
         // alert('Por favor, insira um e-mail válido.');
@@ -77,6 +72,12 @@ function verificarEmail(e) {
         erro.innerHTML = 'Email invalido';
         erro.style.color = 'red';
         setTimeout(() => erro.remove(), 3000);
-        console.log(padrao);
     }
+}
+
+function limparForm() {
+    nome.value = ''
+    email.value = ''
+    dataNascimento.value = ''
+    tipoCarta.value = ''
 }

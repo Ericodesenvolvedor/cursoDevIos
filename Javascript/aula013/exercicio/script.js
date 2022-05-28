@@ -11,7 +11,8 @@ for(let i = 0; i < btns.length; i++) {
     btns[i].style.backgroundColor = '#BFBFBF';
 }
 
-// Adicionando elementos 
+// global 
+document.body.style.color = 'black'
 
 // Elementos para nome do úsuario
 let divUsuario = document.createElement('div');
@@ -53,6 +54,13 @@ function mensagemUsuario() {
     } else {
         divUsuario.appendChild(divUsuarioH2);
         divUsuario.appendChild(divUsuarioP);
+        
+        if (document.body.style.backgroundColor == 'white') {
+            document.body.style.color = 'black'
+        } else {
+            document.body.style.color = 'white'
+        }
+
         divUsuarioH2.textContent = 'Mensagens de boas vindas!!';
         divUsuarioP.textContent = `Seja bem vindo(a) ${mensagem} a nossa academia`;
     }

@@ -10,54 +10,43 @@
 </head>
 <body>
     <main>
-        <form action="#">
+        <form action="#" id="form">
             <div id="inputs-label">
                 <div id="div-item">
                     <label for="item" class="form-label">Item</label>
-                    <input type="text" class="form-control" id="item">
+                    <input type="text" class="form-control" placeholder="Digite o item" id="item">
                 </div>
 
                 <div id="div-quantidade">
                     <label for="quantidade" class="form-label">Quantidade</label>
-                    <div>
-                        <button type="button" id="retirar">-</button>
-                        <input type="number" class="form-control" id="quantidade">
-                        <button type="button" id="adicionar">+</button>
-                    </div>
+                    <input type="number" class="form-control" placeholder="Digite a quantidade" id="quantidade">
                 </div>
 
                 <div id="div-valor">
                     <label for="valor" class="form-label">Valor</label>
-                    <input type="number" class="form-control" id="valor">
+                    <input type="number" class="form-control" placeholder="Digite o valor" id="valor">
                 </div>
             </div>
             <div id="a-button">
-                <span>Valor Final</span>
+                <span id="valorFinal">0</span>
                 <button type="submit" id="adicionar">Adicionar</button>
             </div>
         </form>
 
-        <table class="table border border-dark">
-            <thead>
-                <tr>
-                    <th scope="col">Item</th>
-                    <th scope="col">Quantidade</th>
-                    <th scope="col">Valor</th>
-                    <th scope="col">Cancelar</th>
-                </tr>
-            </thead>
+          <section id="items">
+              <ul id="itemsUl">
+                  <li>Produtos</li>
+              </ul>
 
-            <tbody id="tbody">
-                <tr>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td><button class="btn btn-danger">Cancelar</button></td>
-                  </tr>
-            </tbody>
-          </table>
+              <ul class="quantidadeUl">
+                  <li>Quantidade</li>
+              </ul>
+
+              <ul id="precosLista">
+                  <li>Preços</li>
+              </ul>
+          </section>
     </main>
-
 
     <!-- Bootstrap -->
     <script 

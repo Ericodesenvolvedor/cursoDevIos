@@ -46,7 +46,7 @@ class Item {
         let btnRetirarItem = document.createElement('button');
         btnRetirarItem.innerHTML = '-';
         quantidadeLi.appendChild(btnRetirarItem);
-        btnRetirarItem.classList.add('red')
+        btnRetirarItem.classList.add('bg-red');
         btnRetirarItem.addEventListener('click', retirar);
 
         // BOTÃO PARA ADICIONAR UM ITEM
@@ -54,14 +54,13 @@ class Item {
         btnAdicionarItem.innerHTML = '+';
         quantidadeLi.appendChild(btnAdicionarItem);
         btnAdicionarItem.addEventListener('click', adicionar);
+        btnAdicionarItem.classList.add('bg-black')
 
         // BOTÃO PARA CANCELAR UM ITEM
         let btnCancelarItem = document.createElement('button');
         btnCancelarItem.innerHTML = 'X';
         valorLi.appendChild(btnCancelarItem);
         btnCancelarItem.addEventListener('click', cancelar);
-
-        // let texto = quantidadeTextoSpan.innerHTML
 
         let quantidade = this.quantidade
         let valor = this.valor
@@ -70,7 +69,7 @@ class Item {
             quantidade--
             acumuladorValores -= valor 
             console.log(quantidade * valor);
-            valorFinal.innerHTML = acumuladorValores;
+            valorFinal.innerHTML = formatarMoeda();
             console.log(quantidade);
             textoQuantidadeValor.innerHTML = quantidade;
             return acumuladorValores;
@@ -82,7 +81,7 @@ class Item {
             // console.log(typeof valor)
             acumuladorValores += valor
             // console.log(quantidade * valor);
-            valorFinal.innerHTML = acumuladorValores;
+            valorFinal.innerHTML = formatarMoeda();
             // console.log(quantidade);
             textoQuantidadeValor.innerHTML = quantidade;
             return acumuladorValores;
@@ -94,14 +93,14 @@ class Item {
             valorLi.remove();
             // console.log(acumuladorValores)
             acumuladorValores = acumuladorValores - (quantidade * valor)
-            valorFinal.innerHTML = acumuladorValores;
+            valorFinal.innerHTML = formatarMoeda();
             
         }
     }
 
     calcularTotalValorItens() {
         acumuladorValores += Number(this.quantidade * this.valor);
-        valorFinal.innerHTML = acumuladorValores;
+        valorFinal.innerHTML = formatarMoeda();
         return acumuladorValores
     }
 }
@@ -120,4 +119,8 @@ function adicionarItems(event) {
     }
 
     form.reset();
+}
+
+function formatarMoeda() {
+    return acumuladorValores.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'});
 }

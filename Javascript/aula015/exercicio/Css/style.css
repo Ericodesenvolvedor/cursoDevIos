@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: var(--bs-dark);
+    padding: 1rem;
+    color: var(--bs-white);
+}
+
 main {
     width: 80%;
     margin-inline: auto;
@@ -112,9 +118,14 @@ ul li button {
     border: none;
 }
 
-ul li .red {
+ul li .bg-red {
     background-color: red;
     margin-right: 0.5rem;
+}
+
+ul li .bg-black {
+    background-color: black;
+    color: white;
 }
 
 ul:nth-child(3) li button {

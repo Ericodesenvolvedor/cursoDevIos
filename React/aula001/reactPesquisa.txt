@@ -1,15 +1,24 @@
-# React - Introdução - 26/05/2022
+Pesquisa sobre react abordando os seguintes temas: 
 
-O React é uma biblioteca js para criação de interfaces e de código aberto. 
+React
+Diferença de biblioteca e Framework
+Props
+hooks
+Componentes
 
-## JSX:
+---------------------------------------------------
+React:
+
+- O React é uma biblioteca js para criação de interfaces e de código aberto. 
+
+JSX:
 - É uma extensão de sintaxe para JavaScript.
 
-### JSX também é uma Expressão: 
+JSX também é uma Expressão: 
 - as expressões em JSX se transformam em chamadas normais de funções que 
 retornam objetos JavaScript.
 
-### Atributos com JSX: 
+Atributos com JSX: 
 - pode usar aspas para especificar strings literais como atributos: 
 <a href="https://...">Link</a>
 
@@ -23,45 +32,52 @@ JavaScript em um atributo.
 class    = className
 tabindex = tabIndex.
 
-### Elementos Filhos com JSX:
+Elementos Filhos com JSX:
 
 - Se uma tag está vazia, você pode fechá-la imediatamente com />
 <img src={user.avatarUrl} />
 
-## A diferença técnica entre um framework e uma biblioteca:
+A diferença técnica entre um framework e uma biblioteca:
 
 - Biblioteca: você está no controle do fluxo da aplicação.
 - Framework: ele quem está ao encargo do fluxo.
 
 <a href="https://freecodecamp.org" target="_blank">Ver sobre</a>
 
-## Renderizando Elementos:
+Renderizando Elementos:
 
 - Um elemento descreve o que você quer ver na tela.
 - Elementos React são objetos simples e utilizam menos recursos.
 - React DOM é o responsável por atualizar o DOM para exibir os elementos React.
 - ReactDOM.render(element, document.getElementById('root'));
 
-### Componentes e Props
+Componentes e Props
 
 Componentes: 
 - permitem você dividir a UI em partes independentes, reutilizáveis e pensar em 
 cada parte isoladamente.
 - São como funções JavaScript. 
-- Eles aceitam entradas arbitrárias (chamadas “props”)
+- Eles aceitam entradas arbitrárias (chamadas props)
 - Retornam elementos React que descrevem o que deve  aparecer na tela.
 
 Props:
 - As props são entradas que não podem ser alteradas dentro de um componente. 
 - Componentes devem, obrigatoriamente, apenas ler as props.
-- Componentes de React devem ser “puros” e não podem alterar nenhum valor das props.
+- Componentes de React devem ser puros e não podem alterar nenhum valor das props.
 
-### Componentes de Função
+Componentes de Função:
 
 - A maneira mais simples de definir um componente é escrever uma função JavaScript
 - Um componente válido aceita somente um argumento de objeto props com dados que 
 retornam um elemento React.
 
-## hooks:
+hooks:
 - Permitem o uso de vários recursos de forma simples através de funções.
 - Eles também ajudam a organizar a lógica utilizada dentro dos componentes.
+
+Fontes Utilizadas: 
+
+https://pt-br.reactjs.org/
+https://freecodecamp.org
+https://www.lewagon.com
+https://www.alura.com.br/artigos

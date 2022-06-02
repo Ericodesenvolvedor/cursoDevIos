@@ -1,67 +1,126 @@
 # React - Introdução - 26/05/2022
 
-O React é uma biblioteca js para criação de interfaces e de código aberto. 
+- React é uma biblioteca usada para a construção de interfaces.
+- Desenvolvimento de aplicações do lado do cliente.
+- Capacidade semelhantes e é comparado com os frameworks Angule e Vue.
 
-## JSX:
-- É uma extensão de sintaxe para JavaScript.
+## Single Page Application(SPA)
 
-### JSX também é uma Expressão: 
-- as expressões em JSX se transformam em chamadas normais de funções que 
-retornam objetos JavaScript.
+- Uma aplicação web ou um site de uma única página.
+- Reescrevendo dinamicamente a página atual com o novo dado solicitado.
+- Recarrega apenas parte da interface.
+- Consultas no servidor só são necessárias para buscas novos dados e não 
+páginas inteiras.
+- Transições entre páginas mais rápidas
 
-### Atributos com JSX: 
-- pode usar aspas para especificar strings literais como atributos: 
-<a href="https://...">Link</a>
+## Múltiplas páginas (MPA)
 
-- pode usar chaves para incorporar uma expressão JavaScript em um atributo:
-<img src={user.avatarUrl} />
+- Página inteira no servidor.
+- Recarrega a nova página completa a cada atualização necessária.
 
-Obs: Não envolva chaves com aspas quando estiver incorporando uma expressão 
-JavaScript em um atributo.
+## JSX
 
-- Usa camelCase como convenção para nomes de propriedades:
-class    = className
-tabindex = tabIndex.
+- Extensão da sintaxe do JavaScript.
+- Parecido com linguagem de marcação.
+- Chamamos de elementos React.
 
-### Elementos Filhos com JSX:
+```react
+const mensagem = <h1>Hello, world!</h1>;
+```
 
-- Se uma tag está vazia, você pode fechá-la imediatamente com />
-<img src={user.avatarUrl} />
+- Não é uma string
+- Uma instrução em JSX que armazena na variável mensagem o elemento React.
+- Podemos mesclar com expressões do JavaScript.
 
-## A diferença técnica entre um framework e uma biblioteca:
+```react
+const nome = 'Irmão do Jorel';
+const mensagem = <h1>Olá, {nome}</h1>;
+```
 
-- Biblioteca: você está no controle do fluxo da aplicação.
-- Framework: ele quem está ao encargo do fluxo.
+- Incorporar a expressão JavaScript é necessário que você a insira entre chaves.
 
-<a href="https://freecodecamp.org" target="_blank">Ver sobre</a>
+```react
+function formataNome(user) {
+    return user.firstName + ' ' + user.lastName;
+}
 
-## Renderizando Elementos:
+const mensagem = <h1>Hello, {formataNome(user)}!</h1>;
+```
 
-- Um elemento descreve o que você quer ver na tela.
-- Elementos React são objetos simples e utilizam menos recursos.
-- React DOM é o responsável por atualizar o DOM para exibir os elementos React.
-- ReactDOM.render(element, document.getElementById('root'));
+## Propriedades React
 
-### Componentes e Props
+- Pode usar atributos nos elementos React.
+- DOM usa a convenção camelCase de nomenclatura de propriedade.
 
-Componentes: 
-- permitem você dividir a UI em partes independentes, reutilizáveis e pensar em 
-cada parte isoladamente.
-- São como funções JavaScript. 
-- Eles aceitam entradas arbitrárias (chamadas “props”)
-- Retornam elementos React que descrevem o que deve  aparecer na tela.
+## Elementos React
 
-Props:
-- As props são entradas que não podem ser alteradas dentro de um componente. 
-- Componentes devem, obrigatoriamente, apenas ler as props.
-- Componentes de React devem ser “puros” e não podem alterar nenhum valor das props.
+- O elemento React pode ter apenas um elemento React pai.
 
-### Componentes de Função
+Sintaxe válida: 
 
-- A maneira mais simples de definir um componente é escrever uma função JavaScript
-- Um componente válido aceita somente um argumento de objeto props com dados que 
-retornam um elemento React.
+```react
+const mensagem = (
+<div>
+    <h1>Olá!</h1>
+    <h2>Como é bom ver vocês.</h2>
+</div>
+);
+```
 
-## hooks:
-- Permitem o uso de vários recursos de forma simples através de funções.
-- Eles também ajudam a organizar a lógica utilizada dentro dos componentes.
+- Permite criar uma marcação vazia como pai de várias marcações 
+filhas. ex: <> elementos <>
+
+## Renderização de elementos React
+
+- Descreve o que você visualiza na interface que está sendo 
+desenvolvida.
+- São objetos simples.
+- Menos recursos para serem criados e gerenciados. 
+
+### DOM Virtual
+
+- Formando pelos elementos React.
+- Responsável por atualizar o DOM do navegador (Dom real).
+
+Renderizar algo: transformar uma sintaxe do JSX em algo que
+vai ser exibido na página web.
+
+## Root
+
+```react 
+<div id="root"></div>
+```
+
+- Essa marcação é chamada de nó raiz do DOM, pois toda a aplicação 
+React será renderizada e gerenciada dentre dessa marcação.
+- Render(): responsável por descrever como a interface do usuário 
+deverá ser apresentada no navegador web.
+
+```react
+const mensagem = <h1>Hello, world</h1>;
+ReactDOM.render(mensagem, document.getElementById('root'));
+```
+
+## Componentes
+
+- Pode ser implementado como uma classe ou como uma função do JavaScript.
+- Podem ser formados por um ou mais elementos React. 
+- Construindo vários componentes independentes, isolados e reutilizáveis.
+- Usados para compor uma interface do usuário complexa.
+- Aplicação React é essencialmente uma árvore de componentes.
+
+```react
+- Função:
+
+function Mensagem() {
+    return <h1>Olá, pessoal!</h1>;
+}
+
+- Classe: 
+
+class Mensagem extends React.Component {
+    render() {
+        return <h1>Olá, pessoal!</h1>;
+    }
+}
+```

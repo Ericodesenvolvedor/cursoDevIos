@@ -124,3 +124,61 @@ class Mensagem extends React.Component {
     }
 }
 ```
+
+## Props
+
+- Componentes podem ter props (Propriedades);
+- Passar uma informação para um componente.
+- Também são usadas para passar dados de um componente 
+pai para um componente filho.
+
+```react
+function Mensagem(props) {
+    return <h1>Olá, {props.name}</h1>;
+}
+
+const elemento = <Mensagem name="Irmão do Jorel" />;
+```
+
+## Estado de um componente
+
+- Conteúdo dinâmico chamado estado.
+- Um objeto, que determina como um componente será renderizado.
+- useState, que permite trabalhar com estados em componentes 
+implementados com função.
+
+# Instalação do React - 31/05/2022
+
+```react
+npx create-react-app my-app
+npm start
+npm run build
+```
+
+# Componentes Funcionais - 01/06/2022
+
+## Hooks
+
+- React Hooks são funções que nos permitem usar estado (state)
+- Os hooks não funcionam dentro de classes.
+
+### useState: 
+
+- Usado para criar o estado de um componente, atribuir um valor 
+inicial para o estado e, também, uma função para que possamos 
+atualizar esse estado.
+
+### useEffect:
+
+- Usado para produzir efeitos colaterais em componentes funcionais.
+- Além desse dois existem o useContext, useReducer, useRef, useLocation, 
+entre outros.
+
+## Criando componentes funcionais
+
+Regras Para criar:
+
+- Primeira Letra maiúscula
+- Não pode conter espaços em branco
+- Não pode caracteres especiais.
+- A extensão do arquivo pode ser .js ou .jsx

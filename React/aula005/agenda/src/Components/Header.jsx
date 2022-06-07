@@ -5,6 +5,7 @@ const Header = ({ title }) => {
     const onClick = () => {
         alert('Clicou');
     };
+    
     return (
         <header className="header">
             <h1>Agenda de {title}</h1>

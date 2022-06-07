@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centralizado {
+  text-align: center;
+  background-color: white;
+  padding: 1rem 2rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table caption {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  border-bottom: 2px solid black;
+  color: blue;
+}
+
+th, td {
+  border: 2px solid rgb(30, 44, 71);
+  padding: .5rem;
+}

@@ -8,6 +8,7 @@ Neste repositório você encontrará muitas pastas referentes ao que eu estou es
 - CSS3
 - Bootstrap
 - JavaScript vanilla
+- React
 
 ## Próxima atualização
 

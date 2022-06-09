@@ -15,9 +15,10 @@ function enviar(event) {
     event.preventDefault();
 
     let idadePessoa = pegarIdade(dataNascimento);
-
+   
     if (idadePessoa < 18) {
         alert('Você é menor de idade');
+        // console.log(typeof idadePessoa)
     } 
         else if(nome.value === '') {
             alert('Preencha todos os campos!');
@@ -72,7 +73,7 @@ function pegarIdade(data) {
         idade = ano - array[0];
         // console.log(--idade);
     }
-    
+
     return --idade
 }
 

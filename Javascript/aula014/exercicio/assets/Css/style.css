@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --primary-color:  hsl(231, 57%, 54%);
+    --variacao-primary-color: hsl(231, 82%, 63%);
+    --secodary-color: #ffffff;
+
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--primary-color);
+    margin-inline: 3rem;
+    margin-block: 1rem;
+}
+
+body #card {
+    width: 100%;
+    background-color: var(--secodary-color);
+
+    display: flex;
+}
+
+
+/* ACESSANDO IMAGEM CARD ==================================> */
+
+body #card #card-figure-container {
+    max-width: 40%;
+}
+
+#card #card-figure-container img {
+    width: 100%;
+}
+
+/* ACESSANDO HEADER CARD ===================================> */
+
+#card #card-informacoes {
+    width: 60%;
+}
+
+#card-informacoes #card-header {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+#card-informacoes #card-header h1 {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 4rem;
+}
+
+#card-informacoes #card-header h1::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: .5rem;
+
+    background-color: var(--primary-color);
+    width: .2rem;
+    height: 4rem;
+    margin-right: .5rem;
+}
+
+/* ACESSANDO FORM CARD ===================================> */
+
+#card-informacoes form {
+    width: 80%;
+    margin-inline: auto;
+    padding: 2rem;
+    border: 2px solid black;
+}
+
+#card-informacoes form .div-input {
+    margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#card-informacoes form .div-input label {
+    margin-bottom: .5rem;
+}
+
+#card-informacoes form .div-input input {
+    padding: .3rem;
+}
+
+#card-informacoes form button {
+    margin: auto;
+    display: block;
+    margin-top: 2rem;
+    padding: .8rem 5rem;
+    background-color: var(--variacao-primary-color);
+    border: none;
+    font-weight: bold;
+    color: var(--secodary-color);
+    font-size: 1.8rem;
+}
+
+#card-informacoes form button:hover {
+    background-color: var(--primary-color);
+}
+
+/* ACESSANDO TABLE  ===================================> */
+
+body table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--secodary-color);
+    margin-top: 2rem;
+}
+
+body table th, td {
+    padding: .5rem;
+    border: 2px solid black;
+    width: 25%;
+    text-align: center;
+}
+
+.btnCancelar {
+    display: block; 
+    margin: auto;
+    margin-top: .2rem;
+    padding: .3rem 2rem;
+    font-size: 1.7rem;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+}
+
+.btnCancelar:hover {
+    background-color: rgb(192, 0, 0);
+}

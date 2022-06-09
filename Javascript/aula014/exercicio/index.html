@@ -3,50 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carteira de Motorista</title>
-    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./assets/Css/style.css">
+    <title>Cadastro Alunos</title>
 </head>
 <body>
-    <header>
-        <h1>Detran</h1>
-    </header>
 
-    <div id="container">
-        <figure>
-            <img src="./Imagens/camaro-branco.jpg" alt="Camaro branco dentro de uma garagem com alguns carros.">
+    <div id="card">
+        <figure id="card-figure-container">
+            <img src="./assets/Imagens/garoto-estudando-e-fazendo-anotacoes.png" alt="Garoto estudando e fazendo anotações em seu caderno.">
         </figure>
-        <form action="#">
-            <div>
-                <label for="nome">Nome</label>
-                <input type="text" id="nome">
-            </div>
 
-            <div>
-                <label for="dataNascimento">Data de Nascimento</label>
-                <input type="date" id="dataNascimento">
-            </div>
+        <div id="card-informacoes">
+            <header id="card-header">
+                <h1>Cadastro Estudante</h1>
+            </header>
 
-            <div id="div-email">
-                <label for="email">Email</label>
-                <input type="email" id="email">
-            </div>
-            
-            <div>
-                <label for="tipoCarta">Tipo</label>
-                <select id="tipoCarta">
-                    <option value="---">-------</option>
-                    <option value="carro">Carro</option>
-                    <option value="moto">Moto</option>
-                    <option value="carro_moto">Carro e Moto</option>
+            <form action="#">
+                <div class="div-input">
+                    <label for="input-nome">Nome:</label>
+                    <input type="text" id="input-nome">
+                </div>
+    
+                <div class="div-input" id="email-msg-error">
+                    <label for="input-email">Email:</label>
+                    <input type="email" id="input-email">
+                </div>
+
+                <div class="div-input">
+                    <label for="input-nascimento-data">Data Nascimento:</label>
+                    <input type="date" id="input-nascimento-data" value="2022-01-01">
+                </div>
+
+                <label for="card-select-cursos">Cursos</label>
+                <select id="card-select-cursos">
+                    <optgroup label="Programação">
+                        <option value="Front-End">Front-End</option>
+                        <option value="Back-End">Back-End</option>
+                    </optgroup>
+
+                    <optgroup label="Marketing">
+                        <option value="Inbound-Marketing">Inbound Marketing</option>
+                        <option value="Outbound-Marketing">Outbound Marketing</option>
+                    </optgroup>
+
+                    <optgroup label="Administração">
+                        <option value="Pacote-Office">Pacote Office</option>
+                        <option value="Contabilidade">Contabilidade</option>
+                    </optgroup>
                 </select>
-            </div>
 
-            <input type="submit" value="Adicionar dados" id="enviar">
-        </form>    
-    </div>
+                <button type="submit" id="btn-enviar">Enviar Dados</button>
+            </form> 
+        </div>
+    </div>    
 
-    <ul id="pessoas"></ul>    
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Curso</th>
+                <th>Deletar</th>
+            </tr>
+        </thead>
 
-    <script src="./Js/script.js"></script>
+        <tbody id="table-tbody"></tbody>
+    </table>
+
+    <script src="./assets/Js/script.js"></script>
 </body>
 </html>

@@ -61,7 +61,7 @@ function btnStyle(btn) {
 function pegarIdade(data) {
     let nascimento = data.value
     let array = nascimento.split('-');
-    console.log(array);
+    // console.log(array);
     let objetoData = new Date();
     let dia = objetoData.getDate();
     let mes = objetoData.getMonth();
@@ -70,10 +70,10 @@ function pegarIdade(data) {
     let idade;
     if (mes < array[1] || mes == array[1] && dia < array[2]) {
         idade = ano - array[0];
-        return --idade
         // console.log(--idade);
     }
-
+    
+    return --idade
 }
 
 function verificarEmail() {

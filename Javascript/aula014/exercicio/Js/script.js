@@ -14,11 +14,24 @@ email.addEventListener('change', verificarEmail);
 function enviar(event) {
     event.preventDefault();
 
-    let idade = pegarIdade(dataNascimento);
+    let idadePessoa = pegarIdade(dataNascimento);
 
-    if (idade < 18) {
+    if (idadePessoa < 18) {
         alert('Você é menor de idade');
-    } else {
+    } 
+        else if(nome.value === '') {
+            alert('Preencha todos os campos!');
+        }
+
+        else if(email.value === '') {
+            alert('Preencha todos os campos!');
+        }
+
+        else if(tipoCarta.value === '') {
+            alert('Preencha todos os campos!');
+        }
+
+    else {
         let lista = document.createElement('li');
         let btnExcluir = document.createElement('button')
         dados.appendChild(lista);
@@ -48,17 +61,19 @@ function btnStyle(btn) {
 function pegarIdade(data) {
     let nascimento = data.value
     let array = nascimento.split('-');
-
+    console.log(array);
     let objetoData = new Date();
     let dia = objetoData.getDate();
     let mes = objetoData.getMonth();
     let ano = objetoData.getFullYear();
 
+    let idade;
     if (mes < array[1] || mes == array[1] && dia < array[2]) {
         idade = ano - array[0];
+        return --idade
+        // console.log(--idade);
     }
 
-    return --idade
 }
 
 function verificarEmail() {

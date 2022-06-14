@@ -1,5 +1,5 @@
 // ================= FORMULÁRIO =======================
-
+import { render } from '@testing-library/react';
 import { useState } from 'react';
 import TarefaPendente from './TasksOpen';
  
@@ -18,17 +18,12 @@ function Formulario() {
     const clickBtnInput = (e) => {
         e.preventDefault();
         setIdTarefas(idTarefas + 1);
-        console.log(tarefas);
-        
-        // tarefas.filter((arrayObjeto) => {
-        //     if (arrayObjeto.id === 2) {
-        //         console.log(arrayObjeto);
-        //     }
-        // })
 
-        // <TarefaPendente tarefas={tarefas}/>
+        render(
+            <TarefaPendente tarefas={tarefas}/>
+        )
     }
-
+    
     return (
         <form>
             <input type="text" onChange={(e) => setMensagemInput(e.target.value)}/>
@@ -38,6 +33,8 @@ function Formulario() {
             >
                 Enviar
             </button>
+
+
         </form>
     )
 }

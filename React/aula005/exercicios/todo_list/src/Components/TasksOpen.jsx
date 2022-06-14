@@ -1,13 +1,18 @@
 // ================= ITENS PENDENTES =======================
 
 function TarefaPendente({tarefas}) {
-    
-    console.log(tarefas.id)
-    
+
+    const tarefasPercorrer = tarefas.map((tarefasItens) => {
+        console.log(tarefasItens.texto);
+        return <li key={tarefasItens.id}>{tarefasItens.texto}</li>
+    })
+
     return(
-        <ul>
-            <li>{tarefas.id}</li>
-        </ul>
+        <>
+           <ul>
+                {tarefasPercorrer}
+            </ul>
+        </> 
     )
 }
 

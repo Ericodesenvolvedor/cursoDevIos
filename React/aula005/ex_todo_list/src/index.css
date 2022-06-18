@@ -1,6 +1,14 @@
 :root {
   font-size: 62.5%;
+
+  --tarefasFazerBackground: #FFF384;
+  --headerTarefasFeitas: #FFC700;
+
+  --tarefasFeitasBackground: #96E594;
+  --headerTarefasFeitas: #77C06B;
 }
+
+/* TAREFAS CONFIGURAÇÕES GLOBAIS */
 
 * {
   padding: 0;
@@ -9,22 +17,45 @@
 }
 
 body {
+  width: 70%;
+  margin-inline: auto;
   font-family: Arial, Helvetica, sans-serif;
   font-family: 1.6rem;
   background-color: rgb(138, 181, 194);
   margin-top: 2rem;
 }
 
-.App {
-  font-size: 1.6rem;
-  padding: 4rem;
-  padding-bottom: 2rem;
-  width: 70%;
-  margin: auto;
-  border-radius: 5px;
-  border: 2px solid rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+ul {
+  list-style: none;
+  border: 2px solid black;
+  border-bottom: none;
+  
 }
+
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  max-width: 100%;
+  overflow-x: auto;
+  font-size: 1.8rem;
+  padding: 1rem;
+  border-bottom: 2px solid black;
+}
+
+ul li span {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+ul li svg {
+  font-size: 3rem;
+}
+
+/* CONTAINER NEW TASKS FORM */
 
 .container-newTasks {
   width: 100%;
@@ -64,63 +95,67 @@ body {
   background-color: rgba(17, 17, 17, 0.89);
 }
 
-ul {
-  list-style: none;
-  
-}
+/* Grid tarefas */
 
-ul li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 500px;
-  overflow-x: auto;
-  font-size: 1.8rem;
-  padding: 1rem;
-  border-top: 2px solid black;
-}
-
-ul li span {
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-}
-
-ul li svg {
-  font-size: 3rem;
-}
-
-.tarefas-flex {
+.grid-tarefas {
+  width: 100%;
   display: grid;
+  grid-template-columns: repeat(2, 50%);
   column-gap: 1rem;
-  grid-template-rows: 1fr;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.tarefas-flex div {
-  border: 2px solid black;
 }
 
 /* ---------------------------- TAREFAS ABERTAS CONFIGURAÇÃO ------------------ */
 
 .tasksOpen {
-  background-color: #FFF384;
+  width: 100%;
 }
 
 .tasksOpen h2 {
-  background-color: #FFC700;
+  border: 2px solid black;
+  border-bottom: none;
+
+  font-size: 2rem;
   padding: 1rem;
+  text-align: center;
+  background-color: #FFC700;
+}
+
+.tasksOpen ul {
+  width: 100%;
+  background-color: #FFF384;
+}
+
+.msgTarefasFazer {
+  font-size: 2rem;
+  background-color: white;
+  padding: 0.5rem;
   text-align: center;
 }
 
-/* ---------------------------- TAREFAS Feitas CONFIGURAÇÃO ------------------ */
+/* ---------------------------- TAREFAS FECHADAS CONFIGURAÇÃO ------------------ */
 
 .tasksDone {
+  width: 100%;
+}
+
+.tasksDone ul {
+  width: 100%;
   background-color: #96E594;
 }
 
 .tasksDone h2 {
+  border: 2px solid black;
+  border-bottom: none;
+  
   padding: 1rem;
+  font-size: 2rem;
   text-align: center;
   background-color: #77C06B;
+}
+
+.mgsTarefasConcluidas {
+  font-size: 2rem;
+  background-color: white;
+  padding: 0.5rem;
+  text-align: center;
 }

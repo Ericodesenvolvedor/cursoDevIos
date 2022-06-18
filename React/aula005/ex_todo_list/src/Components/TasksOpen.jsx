@@ -1,23 +1,42 @@
 import { FaToggleOff } from "react-icons/fa";
 import { BsXLg } from "react-icons/bs";
 
-function TasksOpen({tasks, removerTask}) {
+function TasksOpen({tarefasAbertas, setTarefasAbertas, setTarefasFechadas, tarefasFechadas}) {
 
-    const mapeandoTasks = tasks.map((e) => {
+    const retornaTextoTarefaAberta = tarefasAbertas.map((tasks) => {
+
+        const excluirTarefas = () => {
+            setTarefasAbertas(tarefasAbertas.filter((id) => tasks.id !== id.id));
+        }
+
+        const toogleOffEvent = () => {
+            // ALTERANDO O VALOR DO btnEventToogle, POR PADRÃO ESTÁ FALSE
+            tasks.btnEventToogle = true;
+
+            if(tasks.btnEventToogle === true) {
+                // ENVIANDO TAREFAS QUE TENHAM O btnEventToogle COM VALOR TRUE
+                tarefasFechadas.push(tasks);
+                setTarefasFechadas(tarefasFechadas);
+                excluirTarefas();
+            }
+        }
+
         return (
-            <li key={e.id}>{e.texto} 
+            <li key={tasks.id}>
+                {tasks.texto}
                 <span>
-                    <FaToggleOff />
-                    <BsXLg style={{fontSize: '2.5rem'}}/>
+                    <FaToggleOff onClick={toogleOffEvent} />
+                    <BsXLg onClick={excluirTarefas} />
                 </span>
             </li>
-        )
-    })
 
+        ) 
+    }) 
+      
     return(
         <div className="tasksOpen">
-            <h2>Para fazer</h2>
-            <ul>{mapeandoTasks}</ul>
+            <h2>Tarefas Abertas</h2>
+            <ul>{retornaTextoTarefaAberta}</ul>
         </div>
     )
 }

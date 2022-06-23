@@ -4,7 +4,7 @@ public class ReadEvenOrOdd {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Digite 10 números para ver quais são pares ou impares");
+        System.out.println("Digite 10 nÃºmeros para ver quais sÃ£o pares ou impares");
 
         int count = 1;
         while(count <= 10) {
@@ -13,9 +13,9 @@ public class ReadEvenOrOdd {
             boolean done = count == 10;
 
             if(evenNumber) {
-                System.out.println(count + "- O número "  + number + " é par");
+                System.out.println(count + "- O nÃºmero "  + number + " Ã© par");
             } else {
-                System.out.println(count + "- O número "  + number + " é impar");
+                System.out.println(count + "- O nÃºmero "  + number + " Ã© impar");
             }
 
             if (done) {
@@ -24,5 +24,6 @@ public class ReadEvenOrOdd {
 
             count++;
         }
+        input.close();
     }
 }

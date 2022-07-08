@@ -29,16 +29,20 @@ ul {
   list-style: none;
   border: 2px solid black;
   border-bottom: none;
-  
+
+  max-width: 500px;
+  width: 100%;
 }
 
 ul li {
+
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
 
   max-width: 100%;
+  width: 100%;
   overflow-x: auto;
   font-size: 1.8rem;
   padding: 1rem;
